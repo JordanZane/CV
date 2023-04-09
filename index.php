@@ -46,7 +46,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8">
-                        <h3>Front-end</h3>
+                        <h3>Front-end <i class="fa-solid fa-code"></i></h3>
                         <div class="skills-container col-lg-12">
                             <div class="first-col col-lg-6">
                                 <div class="skills-content">
@@ -137,7 +137,7 @@
                 </div>
                 <div class="row">
                     <div class="offset-lg-4 col-lg-8">
-                        <h3>Outils</h3>
+                        <h3>Outils <i class="fa-solid fa-screwdriver-wrench"></i></h3>
                         <div class="skills-container col-lg-12">
                             <div class="first-col col-lg-6">
                                 <div class="skills-content">
@@ -190,7 +190,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8">
-                        <h3>Autres</h3>
+                        <h3>Autres <i class="fa-solid fa-gear"></i></h3>
                         <div class="skills-container col-lg-12">
                             <div class="first-col col-lg-6">
                                 <div class="skills-content">
