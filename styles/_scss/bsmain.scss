@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+@import 'vendors/bootstrap';
+
+@import 'base/typography';
+@import 'base/_animation';
+
+@import 'layout/_header';
+@import 'layout/_footer';
+
+@import 'components/standard';
+
+@import 'pages/_home';  
+@import 'pages/_globalstyle';
+@import 'pages/_contact';
