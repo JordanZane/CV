@@ -13,31 +13,55 @@ header{
         background-color: rgba(0,0,0,17%);
         z-index: 10;
     }
-    .bg-header{
-        position: relative;
-        z-index: 20;
-    }
-    .menu{
-        display: flex;
-        justify-content: flex-end;
-        nav ul{
+
+        .bg-header{
+            position: relative;
+            z-index: 20;
+            height: 100%;
+        }
+
+        .header-infos{
+            margin-top: 200px;
+        }
+
+        .menu{
             display: flex;
-            li{
-                list-style-type: none;
-                &:first-child{
-                    margin-right: 20px;
-                }
-                a{
-                    color: $color-grey;
-                    text-decoration: none;
-                    font-weight: bold;
-                    color: $color-white;
-                    font-size: 18px;
-                    position: relative;
-                    transition: 0.2s all ease-in;
-                    &.active{
-                        color: $color-blue;
-                        &::after{
+            justify-content: flex-end;
+            nav ul{
+                display: flex;
+                li{
+                    list-style-type: none;
+                    &:first-child{
+                        margin-right: 20px;
+                    }
+                    a{
+                        color: $color-grey;
+                        text-decoration: none;
+                        font-weight: bold;
+                        color: $color-white;
+                        font-size: 18px;
+                        position: relative;
+                        transition: 0.2s all ease-in;
+                        &.active{
+                            color: $color-blue;
+                            &::after{
+                                content: "";
+                                position: absolute;
+                                left: 50%;
+                                transform: translate(-50%, 0);
+                                bottom: -15px;
+                                background-color: $color-blue;
+                                height: 1px;
+                                width: 75%;
+                            }
+                            &:hover::after{
+                                animation: none;
+                            }
+                        }
+                        &:hover{
+                            color: $color-blue;
+                        }
+                        &:hover::after{
                             content: "";
                             position: absolute;
                             left: 50%;
@@ -45,27 +69,37 @@ header{
                             bottom: -15px;
                             background-color: $color-blue;
                             height: 1px;
-                            width: 75%;
+                            animation: 0.5s linear forwards grow;
                         }
-                        &:hover::after{
-                            animation: none;
-                        }
-                    }
-                    &:hover{
-                        color: $color-blue;
-                    }
-                    &:hover::after{
-                        content: "";
-                        position: absolute;
-                        left: 50%;
-                        transform: translate(-50%, 0);
-                        bottom: -15px;
-                        background-color: $color-blue;
-                        height: 1px;
-                        animation: 0.5s linear forwards grow;
                     }
                 }
             }
         }
-    }
+
+        .row.all-icons-container{
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            width: 100%;
+            max-width: 1140px;
+        }
+
+        .icons-container{
+            display: flex;
+            justify-content: center;
+            .col-lg-3{
+                text-align: center;
+                i{
+                    color: $color-blue;
+                    font-size: 5em;
+                }
+                h3{
+                    font-size: 20px;
+                    color: $color-white;
+                }
+            }
+        }
+
+        
 }

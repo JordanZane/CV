@@ -117,6 +117,15 @@ body {
 
 .btn{
         font-family: $font2;
+        color: $color-white;
+        background-color: $color-blue;
+        transition: all 0.3s ease-in;
+        font-weight: bold;
+        font-size: 20px;
+        &:hover{
+                color: $color-blue;
+                background-color: $color-white;
+        }
 }
 
 
