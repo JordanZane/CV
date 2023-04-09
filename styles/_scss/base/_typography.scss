@@ -7,8 +7,72 @@
   url("fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); 
 }
 
-$font1 :'Verdana';
-$font2 :'Verdana';
+$font1 :'Inter';
+$font2 :'Roboto';
+
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter/inter-regular/inter-regular.eot");
+  src: url("fonts/inter/inter-regular/inter-regular.eot?#iefix") format("embedded-opentype"),
+  url("fonts/inter/inter-regular/inter-regular.woff") format("woff"),
+  url("fonts/inter/inter-regular/inter-regular.woff2") format("woff2"),
+  url("fonts/inter/inter-regular/inter-regular.ttf") format("truetype"),
+  url("fonts/inter/inter-regular/inter-regular.svg#inter-regular") format("svg");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter/inter-regular/inter-bold.eot");
+  src: url("fonts/inter/inter-regular/inter-bold.eot?#iefix") format("embedded-opentype"),
+  url("fonts/inter/inter-regular/inter-bold.woff") format("woff"),
+  url("fonts/inter/inter-regular/inter-bold.woff2") format("woff2"),
+  url("fonts/inter/inter-regular/inter-bold.ttf") format("truetype"),
+  url("fonts/inter/inter-regular/inter-bold.svg#inter-bold") format("svg");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter/inter-regular/inter-light.eot");
+  src: url("fonts/inter/inter-regular/inter-light.eot?#iefix") format("embedded-opentype"),
+  url("fonts/inter/inter-regular/inter-light.woff") format("woff"),
+  url("fonts/inter/inter-regular/inter-light.woff2") format("woff2"),
+  url("fonts/inter/inter-regular/inter-light.ttf") format("truetype"),
+  url("fonts/inter/inter-regular/inter-light.svg#inter-light") format("svg");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/roboto-regular/roboto-regular.eot");
+  src: url("fonts/roboto/roboto-regular/roboto-regular.eot?#iefix") format("embedded-opentype"),
+  url("fonts/roboto/roboto-regular/roboto-regular.woff") format("woff"),
+  url("fonts/roboto/roboto-regular/roboto-regular.woff2") format("woff2"),
+  url("fonts/roboto/roboto-regular/roboto-regular.ttf") format("truetype"),
+  url("fonts/roboto/roboto-regular/roboto-regular.svg#roboto-regular") format("svg");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/roboto-bold/roboto-bold.eot");
+  src: url("fonts/roboto/roboto-bold/roboto-bold.eot?#iefix") format("embedded-opentype"),
+  url("fonts/roboto/roboto-bold/roboto-bold.woff") format("woff"),
+  url("fonts/roboto/roboto-bold/roboto-bold.woff2") format("woff2"),
+  url("fonts/roboto/roboto-bold/roboto-bold.ttf") format("truetype"),
+  url("fonts/roboto/roboto-bold/roboto-bold.svg#roboto-bold") format("svg");
+}
+
+
+.flaticon-right-arrow:before { content: "\f100"; }
+.flaticon-left-arrow:before { content: "\f101"; }
+.flaticon-black-back-closed-envelope-shape:before { content: "\f102"; }
+.flaticon-maps-and-flags:before { content: "\f103"; }
+.flaticon-phone-receiver:before { content: "\f104"; }
+.flaticon-pdf-file-format-symbol:before { content: "\f105"; }
+.flaticon-menu:before { content: "\f106"; }
+.flaticon-facebook-logo:before { content: "\f107"; }
+
+
+
 
 @font-face {
   font-family: "Flaticon";
@@ -35,18 +99,3 @@ $font2 :'Verdana';
 font-style: normal;
 
 }
-
-
-
-.flaticon-right-arrow:before { content: "\f100"; }
-.flaticon-left-arrow:before { content: "\f101"; }
-.flaticon-black-back-closed-envelope-shape:before { content: "\f102"; }
-.flaticon-maps-and-flags:before { content: "\f103"; }
-.flaticon-phone-receiver:before { content: "\f104"; }
-.flaticon-pdf-file-format-symbol:before { content: "\f105"; }
-.flaticon-menu:before { content: "\f106"; }
-.flaticon-facebook-logo:before { content: "\f107"; }
-
-
-
-
