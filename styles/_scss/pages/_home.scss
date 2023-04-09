@@ -1,4 +1,23 @@
 .about-section{
+    background-image: url(/images/home/abstrait-about-bg.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    .col-lg-8{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translate(0, -50%);
+            width: 2px;
+            height: 100%;
+            background-color: $color-blue;
+        }
+        p span{
+            font-weight: bold;
+        }
+    }
     .col-lg-4{
        p span{
             font-weight: bold;

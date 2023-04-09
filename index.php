@@ -20,10 +20,10 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-8">
-                            <p>Attiré par le domaine du web depuis longtemps, ma passion pour le développement web commence en suivant quelques cours sur OpenClassrooms. 
-                                De là, j'entreprend de changer de voie et décide alors d'entreprendre la formation de "développeur web junior". 
-                                Suite à cette formation j'ai obtenu une alternance en tant qu'intégrateur web dans une agence de communication web lors de mon Bachelor. 
-                                J'ai pu ensuite travailler en tant qu'employé et m'épanouir pleinement dans le poste d'intégrateur web.</p>
+                            <p>Attiré par le domaine du web depuis longtemps, ma passion pour le développement web commence en suivant quelques cours sur <span class="color-blue">OpenClassrooms.</span>  
+                                De là, j'entreprend de changer de voie et décide alors d'entreprendre la formation de <span class="color-blue">"développeur web junior".</span>  
+                                Suite à cette formation j'ai obtenu une alternance en tant qu'<span class="color-blue">intégrateur web</span> dans une agence de communication web lors de mon Bachelor. 
+                                J'ai pu ensuite travailler en tant qu'employé et m'épanouir pleinement dans le poste d'intégrateur web en mettant à disposition mes compétences.</p>
                                 <p>D'un naturel curieux, je cherche en permanence à développer mes compétences, je suis actuellement à la recherche d'un poste de développeur, intégrateur web. 
                                 N'hésitez pas à me contacter pour de plus amples informations.</p>
                         </div>

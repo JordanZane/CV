@@ -1,6 +1,8 @@
 header{
     background-image: url(/images/home/banner.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     position: relative;
     &::after{
@@ -21,7 +23,7 @@ header{
         }
 
         .header-infos{
-            margin-top: 200px;
+            margin : 200px 0;
         }
 
         .menu{
@@ -77,12 +79,7 @@ header{
         }
 
         .row.all-icons-container{
-            position: absolute;
-            bottom: 50px;
-            left: 50%;
-            transform: translate(-50%, 0);
-            width: 100%;
-            max-width: 1140px;
+            
         }
 
         .icons-container{
