@@ -2,12 +2,12 @@
     background-image: url(/images/home/abstrait-about-bg.svg);
     background-repeat: no-repeat;
     background-position: right;
-    .col-lg-8{
+    .col-lg-7{
         position: relative;
         &::after{
             content: '';
             position: absolute;
-            right: 15px;
+            right: 7px;
             top: 50%;
             transform: translate(0, -50%);
             width: 2px;
@@ -18,7 +18,7 @@
             font-weight: bold;
         }
     }
-    .col-lg-4{
+    .col-lg-5{
        p span{
             font-weight: bold;
         }

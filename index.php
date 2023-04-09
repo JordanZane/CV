@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-8">
+                        <div class="col-lg-7">
                             <p>Attiré par le domaine du web depuis longtemps, ma passion pour le développement web commence en suivant quelques cours sur <span class="color-blue">OpenClassrooms.</span>  
                                 De là, j'entreprend de changer de voie et décide alors d'entreprendre la formation de <span class="color-blue">"développeur web junior".</span>  
                                 Suite à cette formation j'ai obtenu une alternance en tant qu'<span class="color-blue">intégrateur web</span> dans une agence de communication web lors de mon Bachelor. 
@@ -27,7 +27,7 @@
                                 <p>D'un naturel curieux, je cherche en permanence à développer mes compétences, je suis actuellement à la recherche d'un poste de développeur, intégrateur web. 
                                 N'hésitez pas à me contacter pour de plus amples informations.</p>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <p><span class="color-blue">Nom :</span> Zanetti Jordan</p>
                             <p><span class="color-blue">Âge :</span> 27 ans</p>
                             <p><span class="color-blue">Lieu :</span> Thionville, France</p>
