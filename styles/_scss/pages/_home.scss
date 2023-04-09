@@ -26,9 +26,17 @@
 }
 
 .skills-section{
+    h3{
+        display: inline-block;
+        color: $color-white;
+        background-color: $color-blue;
+        padding: 6px 42px;
+        margin: 0;
+    }
     .skills-container{
         background-color: $color-white;
         display: flex;
+        margin-bottom: 50px;
         .skills-content{
             display: flex;
             align-items: center;

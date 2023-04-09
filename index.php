@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-7">
+                    <div class="col-lg-8">
                         <h3>Front-end</h3>
                         <div class="skills-container col-lg-12">
                             <div class="first-col col-lg-6">
@@ -133,8 +133,82 @@
                                 </div>
                             </div>
                         </div>
-                        
-                       
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-lg-4 col-lg-8">
+                        <h3>Outils</h3>
+                        <div class="skills-container col-lg-12">
+                            <div class="first-col col-lg-6">
+                                <div class="skills-content">
+                                    <h4>Pack Office</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                               
+                                <div class="skills-content">
+                                    <h4>Photoshop</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="sec-col col-lg-6">
+                            <div class="skills-content">
+                                    <h4>Adobe XD</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h4>Git / GitHub</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h3>Autres</h3>
+                        <div class="skills-container col-lg-12">
+                            <div class="first-col col-lg-6">
+                                <div class="skills-content">
+                                    <h4>- Visual Studio Code</h4>
+                                </div>
+                                <div class="skills-content">
+                                    <h4>WAMP</h4>
+                                </div>
+                            </div>
+                            <div class="sec-col col-lg-6">
+                                <div class="skills-content">
+                                    <h4>- FileZilla</h4>
+                                </div>
+                                <div class="skills-content">
+                                    <h4>- Postman</h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
