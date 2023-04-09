@@ -197,7 +197,7 @@
                                     <h4>- Visual Studio Code</h4>
                                 </div>
                                 <div class="skills-content">
-                                    <h4>WAMP</h4>
+                                    <h4>- WAMP</h4>
                                 </div>
                             </div>
                             <div class="sec-col col-lg-6">
