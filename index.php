@@ -37,6 +37,15 @@
                     </div>
                 </div>
         </section>
+        <section class="skills bg-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Mes <span class="color-blue underline">compétences</span></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>

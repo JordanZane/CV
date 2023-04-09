@@ -54,7 +54,7 @@ body {
                 font-size: 42px;
                 font-weight: 700;
                 line-height: 52px;
-                padding: 32px 0 25px;
+                padding: 25px;
                 text-align: center;
                 &::first-letter{
                         text-transform: uppercase;
@@ -130,6 +130,12 @@ body {
 
                 }
         }
+        section{
+                padding-top: 50px;
+        }
+        section.bg-grey{
+                background-color: $color-grey-bg;
+        }
 }
 
 .btn{
@@ -172,5 +178,6 @@ body {
 .color-blue{
         color: $color-blue;
 }
+
 
 
