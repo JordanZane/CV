@@ -35,6 +35,12 @@
                             <p>Permis B</p>
                         </div>
                     </div>
+                    <div class="row btn-container">
+                        
+                            <a class="btn" href="#projects-section">Mes projets <i class="fa-solid fa-arrow-down"></i></a>
+                            <a class="btn" href="#contact-section">Contactez-moi <i class="fa-solid fa-arrow-down"></i></a>
+                        
+                    </div>
                 </div>
         </section>
         <section class="skills-section bg-grey">
