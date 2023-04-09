@@ -19,26 +19,29 @@ $font2 :'Roboto';
   url("fonts/inter/inter-regular/inter-regular.woff2") format("woff2"),
   url("fonts/inter/inter-regular/inter-regular.ttf") format("truetype"),
   url("fonts/inter/inter-regular/inter-regular.svg#inter-regular") format("svg");
+  font-weight: normal;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("fonts/inter/inter-regular/inter-bold.eot");
-  src: url("fonts/inter/inter-regular/inter-bold.eot?#iefix") format("embedded-opentype"),
-  url("fonts/inter/inter-regular/inter-bold.woff") format("woff"),
-  url("fonts/inter/inter-regular/inter-bold.woff2") format("woff2"),
-  url("fonts/inter/inter-regular/inter-bold.ttf") format("truetype"),
-  url("fonts/inter/inter-regular/inter-bold.svg#inter-bold") format("svg");
+  src: url("fonts/inter/inter-bold/inter-bold.eot");
+  src: url("fonts/inter/inter-bold/inter-bold.eot?#iefix") format("embedded-opentype"),
+  url("fonts/inter/inter-bold/inter-bold.woff") format("woff"),
+  url("fonts/inter/inter-bold/inter-bold.woff2") format("woff2"),
+  url("fonts/inter/inter-bold/inter-bold.ttf") format("truetype"),
+  url("fonts/inter/inter-bold/inter-bold.svg#inter-bold") format("svg");
+  font-weight: bold;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("fonts/inter/inter-regular/inter-light.eot");
-  src: url("fonts/inter/inter-regular/inter-light.eot?#iefix") format("embedded-opentype"),
-  url("fonts/inter/inter-regular/inter-light.woff") format("woff"),
-  url("fonts/inter/inter-regular/inter-light.woff2") format("woff2"),
-  url("fonts/inter/inter-regular/inter-light.ttf") format("truetype"),
-  url("fonts/inter/inter-regular/inter-light.svg#inter-light") format("svg");
+  src: url("fonts/inter/inter-light/inter-light.eot");
+  src: url("fonts/inter/inter-light/inter-light.eot?#iefix") format("embedded-opentype"),
+  url("fonts/inter/inter-light/inter-light.woff") format("woff"),
+  url("fonts/inter/inter-light/inter-light.woff2") format("woff2"),
+  url("fonts/inter/inter-light/inter-light.ttf") format("truetype"),
+  url("fonts/inter/inter-light/inter-light.svg#inter-light") format("svg");
+  font-weight: 200;
 }
 
 @font-face {
@@ -49,6 +52,7 @@ $font2 :'Roboto';
   url("fonts/roboto/roboto-regular/roboto-regular.woff2") format("woff2"),
   url("fonts/roboto/roboto-regular/roboto-regular.ttf") format("truetype"),
   url("fonts/roboto/roboto-regular/roboto-regular.svg#roboto-regular") format("svg");
+  font-weight: normal;
 }
 
 @font-face {
@@ -59,6 +63,7 @@ $font2 :'Roboto';
   url("fonts/roboto/roboto-bold/roboto-bold.woff2") format("woff2"),
   url("fonts/roboto/roboto-bold/roboto-bold.ttf") format("truetype"),
   url("fonts/roboto/roboto-bold/roboto-bold.svg#roboto-bold") format("svg");
+  font-weight: bold;
 }
 
 

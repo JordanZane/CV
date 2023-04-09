@@ -28,7 +28,7 @@ body {
         }
 
         h1 {
-                font-family: $font2;
+                font-family: $font1;
                 font-weight: 700;
                 font-size: 40px;
                 line-height: 52px;
@@ -90,7 +90,6 @@ body {
         p {
                 font-family: $font1;
                 font-size: 14px;
-                font-size: 14px;
                 line-height: 20px;
                 margin: 10px 0;
                 a {
@@ -111,7 +110,9 @@ body {
         }
 }
 
-
+.btn{
+        font-family: $font2;
+}
 
 
 .seperator-right {
