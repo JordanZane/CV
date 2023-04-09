@@ -37,11 +37,104 @@
                     </div>
                 </div>
         </section>
-        <section class="skills bg-grey">
+        <section class="skills-section bg-grey">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <h2>Mes <span class="color-blue underline">compétences</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <h3>Front-end</h3>
+                        <div class="skills-container col-lg-12">
+                            <div class="first-col col-lg-6">
+                                <div class="skills-content">
+                                    <h4>HTML5</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h4>Sass</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h4>BootStrap</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h4>SEO</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sec-col col-lg-6">
+                                <div class="skills-content">
+                                    <h4>CSS3</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h4>WordPress</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h4>Prestashop</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h4>JavaScript</h4>
+                                    <div class="grades">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                       
                     </div>
                 </div>
             </div>

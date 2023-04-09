@@ -24,3 +24,22 @@
         }
     }
 }
+
+.skills-section{
+    .skills-container{
+        background-color: $color-white;
+        display: flex;
+        .skills-content{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 0 15px;
+            justify-content: space-between;
+            .grades{
+                i{
+                    color: $color-blue;
+                }
+            }
+        }
+    }
+}
