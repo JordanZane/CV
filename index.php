@@ -219,11 +219,39 @@
                 </div>
             </div>
         </section>
+        <section class="experiences-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Mon <span class="color-blue underline">parcours</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="experience-container">
+                            <div class="experience-content">
+                                <h3>Développeur intégrateur web - INTERMEDIATIC SA. <span>Janvier 2021 - juin 2022</span></h3>
+                                <span>
+                                    <a data-toggle="collapse" href="#devWeb-experience" role="button" aria-expanded="true" aria-controls="experience-details"><i class="fa-solid fa-arrow-down"></i></a>
+                                </span>
+                            </div>
+                            <div class="experience-details collapse" id="devWeb-experience">
+                                <p><span class="color-blue">INTERMEDIATIC SA.</span></p>
+                                <p>Cela m'a permis d'étendre mes compétences dans le domaine du digital, notamment avec le CMS Wordpress ainsi que les outils de création graphique</p>
+                                <p>Cela m'a permis d'étendre mes compétences dans le domaine du digital, notamment avec le CMS Wordpress ainsi que les outils de création graphique</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <?php include 'layout/footer.phtml'; ?>
     </footer>
-
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
     </body>
