@@ -236,9 +236,60 @@
                                 </span>
                             </div>
                             <div class="experience-details collapse" id="devWeb-experience">
-                                <p><span class="color-blue">INTERMEDIATIC SA.</span></p>
-                                <p>Cela m'a permis d'étendre mes compétences dans le domaine du digital, notamment avec le CMS Wordpress ainsi que les outils de création graphique</p>
-                                <p>Cela m'a permis d'étendre mes compétences dans le domaine du digital, notamment avec le CMS Wordpress ainsi que les outils de création graphique</p>
+                                <p><span class="color-blue">INTERMEDIATIC SA. - Steinfort, Luxembourg </span></p>
+                                <p>J'ai intégré cette entreprise en qualité d'intégrateur web en alternance pendant 9 mois, sous la tutelle du designer et développeur web front-end.</p>
+                                <p>Cette première éxpérience fût riche d'éxpérience et j'ai pu participer à de nombreux projets de création de sites web et de maintenance.</p>
+                                <p>J'ai, suite à mon alternance était embaucher en tant qu'intégrateur web en mi-temps en CDD pour une durée de 9 mois. J'ai pu pleinement m'épanouir et mettre à contribution toutes mes compétences acquise lors de mon alternance dans une grande autonomie.</p>
+                            </div>
+                        </div>
+                        <div class="experience-container">
+                            <div class="experience-content">
+                                <h3>Bachelor responsable commercial et marketing digital (alternance) <span>Octobre 2020 - septembre 2021</span></h3>
+                                <span>
+                                    <a data-toggle="collapse" href="#bachelor-experience" role="button" aria-expanded="true" aria-controls="experience-details"><i class="fa-solid fa-arrow-down"></i></a>
+                                </span>
+                            </div>
+                            <div class="experience-details collapse" id="bachelor-experience">
+                                <p><span class="color-blue">IFA Business School - Metz</span></p>
+                                <p>J'ai effectué cette formation en alternance dans une agence de communication web situé à Steinfort au Luxembourg. Cela m'a permis d'étendre mes compétences dans le domaine du digital, notamment avec le CMS Wordpress ainsi que les outils de création graphique</p>
+                                <p>J'ai lors de cette alternance participer à de nombreux projets où mon rôle consistait à intégrer les sites web des clients via le CMS d'entreprise, ou les CMS WordPress et Prestashop</p>
+                            </div>
+                        </div>
+                        <div class="experience-container">
+                            <div class="experience-content">
+                                <h3>Développeur web junior - OpenClassrooms <span>Mars 2019 - janvier 2020</span></h3>
+                                <span>
+                                    <a data-toggle="collapse" href="#opc-experience" role="button" aria-expanded="true" aria-controls="experience-details"><i class="fa-solid fa-arrow-down"></i></a>
+                                </span>
+                            </div>
+                            <div class="experience-details collapse" id="opc-experience">
+                                <p><span class="color-blue">OpenClassrooms - Ecole en ligne</span></p>
+                                <p>Grâce à cette formation en ligne, j'ai appris les bases du développement web. HTML5 / CSS3 / JavaScript / BootStrap / Sass / WordPress / Photoshop</p>                
+                            </div>
+                        </div>
+                        <div class="experience-container">
+                            <div class="experience-content">
+                                <h3>Brevet de technicien supérieur - Management Des Unités Commerciales (alternance) <span>septembre 2016 - juillet 2018</span></h3>
+                                <span>
+                                    <a data-toggle="collapse" href="#bts-experience" role="button" aria-expanded="true" aria-controls="experience-details"><i class="fa-solid fa-arrow-down"></i></a>
+                                </span>
+                            </div>
+                            <div class="experience-details collapse" id="bts-experience">
+                                <p><span class="color-blue">Cése - Ecole de commerce et de gestion</span></p>
+                                <p>Formation réalisée en alternance. J'ai été employé en tant vendeur au sein du magasin Cousin Chaussure de Thionville.</p>
+                                <p>Cette formation m'a apporté des connaissances et des compétences dans le domaine de la gestion d'une unité commerciale, mais m'a également apporté une meilleure maîtrise dans la relation clientèle ainsi que dans la vente.</p>
+                            </div>
+                        </div>
+                        <div class="experience-container">
+                            <div class="experience-content">
+                                <h3>Baccalauréat Professionnel Commerce <span>2012-2015</span></h3>
+                                <span>
+                                    <a data-toggle="collapse" href="#bac-experience" role="button" aria-expanded="true" aria-controls="experience-details"><i class="fa-solid fa-arrow-down"></i></a>
+                                </span>
+                            </div>
+                            <div class="experience-details collapse" id="bac-experience">
+                                <p><span class="color-blue">Lycée professionnel Sophie Germain - Thionville</span></p>
+                                <p>Baccalauréat réalisé dans le lycée Professionnel Sophie-Germain de Thionville. J'ai acquis durant ces trois années, des connaissances dans le domaine de la vente, de la gestion et du management d'une unité commerciale. Mes différents stages m'ont apportés une première expérience commerciale enrichissante où j'ai su développer mon sens de la relation clientèle et de la vente.</p>
                             </div>
                         </div>
                     </div>
