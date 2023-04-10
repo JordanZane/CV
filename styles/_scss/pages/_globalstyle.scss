@@ -1,3 +1,6 @@
+
+
+
 .error-404 {
         padding: 70px 0 70px;
         p {
@@ -141,7 +144,7 @@ body {
         font-family: $font2;
         color: $color-white;
         background-color: $color-blue;
-        transition: all 0.3s ease-in;
+        @include  transition(0.5s);
         font-weight: bold;
         font-size: 20px;
         border: 1px solid $color-blue;

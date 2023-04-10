@@ -44,7 +44,7 @@ header{
                         color: $color-white;
                         font-size: 18px;
                         position: relative;
-                        transition: 0.2s all ease-in;
+                        @include transition(0.5s);
                         &.active{
                             color: $color-blue;
                             &::after{
@@ -84,13 +84,8 @@ header{
             left: 50%;
             bottom: 30px;
             transform: translate(-50%, 0);
-            
         }
-
-        .row.all-icons-container{
-            
-        }
-
+        
         .icons-container{
             display: flex;
             justify-content: center;

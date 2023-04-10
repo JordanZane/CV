@@ -1,18 +1,17 @@
 @charset 'utf-8';
+@import "abstracts/_mixins.scss";
+@import 'abstracts/_variables.scss';
+@import 'abstracts/_functions.scss';
+@import 'abstracts/_placeholders.scss';
 
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/placeholders';
+@import 'base/typography.scss';
+@import 'base/_animation.scss';
 
-@import 'base/typography';
-@import 'base/_animation';
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
 
-@import 'layout/_header';
-@import 'layout/_footer';
+@import 'components/standard.scss';
 
-@import 'components/standard';
-
-@import 'pages/_home';  
-@import 'pages/_globalstyle';
-@import 'pages/_contact';
+@import 'pages/_home.scss';  
+@import 'pages/_globalstyle.scss';
+@import 'pages/_contact.scss';
