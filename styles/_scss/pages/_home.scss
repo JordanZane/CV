@@ -112,3 +112,60 @@
         }
     }
 }
+
+.experiences-section{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: url(/images/home/bubble-exp.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        z-index: -1;
+        width: 1200px;
+        height: 655px;
+        
+    }
+    .experiences-container{
+        border: 1px solid $color-blue;
+        background: $color-white;
+        z-index: 20;
+    }
+    .experience-container{
+        .experience-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid $color-blue;
+            h3{
+                margin: 0;
+                padding: 0;
+                color: $color-blue;
+                font-size: 18px;
+                span{
+                    font-size: 14px;
+                    color: $color-grey;
+                    font-style: italic;
+                }
+            }
+            span{
+                font-size: 38px;
+                color: $color-blue;
+                a{
+                    color: unset;
+                }
+            }
+        }
+        .experience-details{
+            text-align: center;
+            span{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+}

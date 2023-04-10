@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 experiences-container">
                         <div class="experience-container">
                             <div class="experience-content">
                                 <h3>Développeur intégrateur web - INTERMEDIATIC SA. <span>Janvier 2021 - juin 2022</span></h3>
@@ -239,7 +239,8 @@
                                 <p><span class="color-blue">INTERMEDIATIC SA. - Steinfort, Luxembourg </span></p>
                                 <p>J'ai intégré cette entreprise en qualité d'intégrateur web en alternance pendant 9 mois, sous la tutelle du designer et développeur web front-end.</p>
                                 <p>Cette première éxpérience fût riche d'éxpérience et j'ai pu participer à de nombreux projets de création de sites web et de maintenance.</p>
-                                <p>J'ai, suite à mon alternance était embaucher en tant qu'intégrateur web en mi-temps en CDD pour une durée de 9 mois. J'ai pu pleinement m'épanouir et mettre à contribution toutes mes compétences acquise lors de mon alternance dans une grande autonomie.</p>
+                                <p>J'ai, suite à mon alternance était embaucher en tant qu'intégrateur web en mi-temps en CDD pour une durée de 9 mois. 
+                                    J'ai pu pleinement m'épanouir et mettre à contribution toutes mes compétences acquise lors de mon alternance dans une grande autonomie.</p>
                             </div>
                         </div>
                         <div class="experience-container">
@@ -251,7 +252,8 @@
                             </div>
                             <div class="experience-details collapse" id="bachelor-experience">
                                 <p><span class="color-blue">IFA Business School - Metz</span></p>
-                                <p>J'ai effectué cette formation en alternance dans une agence de communication web situé à Steinfort au Luxembourg. Cela m'a permis d'étendre mes compétences dans le domaine du digital, notamment avec le CMS Wordpress ainsi que les outils de création graphique</p>
+                                <p>J'ai effectué cette formation en alternance dans une agence de communication web situé à Steinfort au Luxembourg. 
+                                    Cela m'a permis d'étendre mes compétences dans le domaine du digital, notamment avec le CMS Wordpress ainsi que les outils de création graphique</p>
                                 <p>J'ai lors de cette alternance participer à de nombreux projets où mon rôle consistait à intégrer les sites web des clients via le CMS d'entreprise, ou les CMS WordPress et Prestashop</p>
                             </div>
                         </div>
@@ -277,7 +279,8 @@
                             <div class="experience-details collapse" id="bts-experience">
                                 <p><span class="color-blue">Cése - Ecole de commerce et de gestion</span></p>
                                 <p>Formation réalisée en alternance. J'ai été employé en tant vendeur au sein du magasin Cousin Chaussure de Thionville.</p>
-                                <p>Cette formation m'a apporté des connaissances et des compétences dans le domaine de la gestion d'une unité commerciale, mais m'a également apporté une meilleure maîtrise dans la relation clientèle ainsi que dans la vente.</p>
+                                <p>Cette formation m'a apporté des connaissances et des compétences dans le domaine de la gestion d'une unité commerciale, 
+                                    mais m'a également apporté une meilleure maîtrise dans la relation clientèle ainsi que dans la vente.</p>
                             </div>
                         </div>
                         <div class="experience-container">
@@ -289,7 +292,9 @@
                             </div>
                             <div class="experience-details collapse" id="bac-experience">
                                 <p><span class="color-blue">Lycée professionnel Sophie Germain - Thionville</span></p>
-                                <p>Baccalauréat réalisé dans le lycée Professionnel Sophie-Germain de Thionville. J'ai acquis durant ces trois années, des connaissances dans le domaine de la vente, de la gestion et du management d'une unité commerciale. Mes différents stages m'ont apportés une première expérience commerciale enrichissante où j'ai su développer mon sens de la relation clientèle et de la vente.</p>
+                                <p>Baccalauréat réalisé dans le lycée Professionnel Sophie-Germain de Thionville. J'ai acquis durant ces trois années, des connaissances dans le domaine de la vente, 
+                                    de la gestion et du management d'une unité commerciale. Mes différents stages m'ont apportés une première expérience commerciale enrichissante 
+                                    où j'ai su développer mon sens de la relation clientèle et de la vente.</p>
                             </div>
                         </div>
                     </div>
