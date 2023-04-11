@@ -437,6 +437,36 @@
                 </div>
             </div>
         </section>
+        <section class="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Me <span class="color-blue underline">Contacter</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="tel:0666179121">
+                            <i class="fa-solid fa-phone"></i>
+                            06.66.17.91.21
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="mailto:jzanetti1@outlook.fr">
+                            <i class="fa-solid fa-envelope"></i>
+                            jzanetti1@outlook.fr
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.linkedin.com/in/jordan-zanetti-044ab2174/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            Profil LinkedIn
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
     </main>
 
     <footer>
