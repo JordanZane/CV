@@ -246,3 +246,34 @@
         text-align: center;
     }
 }
+
+.contact-section{
+    background-image: url(/images/home/abstrait-contact-bg.svg);
+    background-repeat: no-repeat;
+    background-position: 108% 0;
+    .col-md-4{
+        a{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            &:hover{
+                text-decoration: none;
+                i{
+                    transform: scale(1.2);
+                }
+            }
+            i{
+                font-size: 72px;
+                color: $color-blue;
+                margin-bottom: 15px;
+                transition: all 0.3s ease-in-out;
+            }
+            p{
+                font-weight: bold;
+                font-size: 18px;
+                color: $color-grey;
+            }
+        }
+    }
+}
