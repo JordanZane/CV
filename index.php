@@ -10,6 +10,12 @@
             <?php include 'layout/header.phtml'; ?>
     </header>
 
+    
+    <div class="back-to-top">
+        <a href="#top-page">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
     <main>
         <section class="about-section">
             <div class="container">
