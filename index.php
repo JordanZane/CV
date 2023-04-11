@@ -422,7 +422,7 @@
                                             <img src="/images/home/projects/eyes.svg" alt="Voir le site">
                                         </a>
                                     </div>
-                                    <p class="dev-tools">WordPress</p>
+                                    <p class="dev-tools">CMS d'entreprise</p>
                                 </div>
                             </div>
                         </div>

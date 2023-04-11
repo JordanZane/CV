@@ -126,15 +126,17 @@
         background-position: center center;
         background-size: cover;
         z-index: -1;
-        width: 1200px;
-        height: 655px;
+        width: 1300px;
+        height: 700px;
         
     }
     .experiences-container{
         border: 1px solid $color-blue;
+        border-bottom: unset;
         background: $color-white;
         z-index: 20;
     }
+    
     .experience-container{
         .experience-content{
             display: flex;
