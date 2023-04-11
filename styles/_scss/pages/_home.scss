@@ -35,6 +35,10 @@
 }
 
 .skills-section{
+    background-image: url(/images/home/bubble-exp.svg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 112% 23%;
     h3{
         display: inline-block;
         color: $color-white;
@@ -49,7 +53,7 @@
     .skills-container{
         background-color: $color-white;
         display: flex;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         padding: 10px 0;
         position: relative;
         .skills-content{
@@ -65,34 +69,19 @@
             }
         }
     }
-    .front-end-skills{
-        .skills-container{
-            &::after{
-                content: "";
-                position: absolute;
-                background-image: url(/images/home/bubbles-skills.svg);
-                background-repeat: no-repeat;
-                background-size: 500px;
-                width: 500px;
-                height: 500px;
-                right: -760px;
-                top: -150px;
-            }
-        }
-    }
-
+   
     .tools-skills{
         .skills-container{
             &::after{
                 content: "";
                 position: absolute;
-                background-image: url(/images/home/pencil.svg);
+                background-image: url(/images/home/tools-img.svg);
                 background-repeat: no-repeat;
-                background-size: 150px;
-                width: 150px;
-                height: 150px;
-                left: -300px;
-                top: -40px;
+                background-size: 250px;
+                width: 250px;
+                height: 250px;
+                left: -350px;
+                top: -50px;
             }
         }
     }
@@ -102,13 +91,13 @@
             &::after{
                 content: "";
                 position: absolute;
-                background-image: url(/images/home/visual-studio.svg);
+                background-image: url(/images/home/other-img.svg);
                 background-repeat: no-repeat;
-                background-size: 200px;
-                width: 200px;
-                height: 200px;
-                right: -300px;
-                top: -26px;
+                background-size: 250px;
+                width: 250px;
+                height: 250px;
+                right: -350px;
+                top: -50px;
             }
         }
     }
