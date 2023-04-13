@@ -12,6 +12,9 @@
   color: $color-blue;
   font-size: 42px;
   z-index: 3000;
+  a{
+    color: $color-blue;
+  }
   cursor: pointer;
     @include respond-to(small){
         display: none!important;
