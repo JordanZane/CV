@@ -435,7 +435,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="btn-container">
-                            <a class="btn" href="layout/projects.phtml">Tous mes projets <i class="fa-solid fa-arrow-down"></i></a>
+                            <a class="btn" href="projects.php">Tous mes projets <i class="fa-solid fa-arrow-down"></i></a>
                         </div>
                     </div>
                 </div>
@@ -481,3 +481,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     </body>
+    </html>
