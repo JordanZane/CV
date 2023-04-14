@@ -68,11 +68,11 @@
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front-card">
-                                    <img src="images/home/projects/efitax.jpg" alt="Efitax-Expertise">
+                                    <img src="images/home/projects/ilpizzico.jpg" alt="Restautrant Ilpizzico">
                                 </div>
                                 <div class="infos-card">
-                                    <h4>Efitax Expertise</h4>
-                                    <a href="https://www.efitax.lu/fr" target="_blank">
+                                    <h4>Ilpizzico</h4>
+                                    <a href="https://www.ilpizzico.lu/fr" target="_blank">
                                         <img src="/images/home/projects/eyes.svg" alt="Voir le site">
                                     </a>
                                     <p class="dev-tools">CMS d'entreprise</p>
@@ -82,28 +82,119 @@
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front-card">
-                                    <img src="images/home/projects/laloja.jpg" alt="La Loja">
+                                    <img src="images/home/projects/centre-therapie-manuelle.jpg" alt="Centre de thérapie manuelle">
                                 </div>
                                 <div class="infos-card">
-                                    <h4>La Loja</h4>
-                                    <a href="https://www.laloja.be/" target="_blank">
+                                    <h4>Centre de thérapie manuelle</h4>
+                                    <a href="https://www.centredetherapiemanuelle.lu/fr" target="_blank">
                                         <img src="/images/home/projects/eyes.svg" alt="Voir le site">
                                     </a>
-                                    <p class="dev-tools">Prestashop</p>
+                                    <p class="dev-tools">CMS d'entreprise</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front-card">
-                                    <img src="images/home/projects/fermedespetelles.jpg" alt="Ferme des Pételles">
+                                    <img src="images/home/projects/centre-formaton-reflexologie.jpg" alt="Académie du Bien-Être">
                                 </div>
                                 <div class="infos-card">
-                                    <h4>Ferme des Pételles</h4>
-                                    <a href="https://www.fermedespetelles.be/" target="_blank">
+                                    <h4>Académie du Bien-Être</h4>
+                                    <a href="https://www.academiedubienetre.be/fr/accueil" target="_blank">
                                         <img src="/images/home/projects/eyes.svg" alt="Voir le site">
                                     </a>
-                                    <p class="dev-tools">WordPress</p>
+                                    <p class="dev-tools">CMS d'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row projects-row">
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/o3-architecture.jpg" alt="O3-Architecture">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>O3-Architecture</h4>
+                                    <a href="https://www.o3-architecture.com/fr" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">CMS d'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/jp-ruelle.jpg" alt="Jean-Pierre Ruelle">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>Jean-Pierre Ruelle</h4>
+                                    <a href="https://www.jpruelle.com/fr" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">CMS d'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/ardoisiere-alle.jpg" alt="Ardoisiere-alle">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>ARDOISIERE ALLE</h4>
+                                    <a href="https://www.ardoisiere-alle.be/fr/accueil" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">CMS d'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row projects-row">
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/fictiville.jpg" alt="Office de Toursime - Fictiville">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>Office de tourisme Fictiville</h4>
+                                    <p>Réalisé avec Gutenberg</p>
+                                    <a href="http://agencetourisme.jordanzanetti.fr/" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">CMS d'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/web-agency.jpg" alt="Web Agency">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>Web Agency</h4>
+                                    <p>Agence fictive</p>
+                                    <a href="http://webagency.jordanzanetti.fr/" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">CMS d'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/lyon-bike.jpg" alt="Lyon Bike">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>Lyon Bike</h4>
+                                    <p>Réservation fictive de vélo</p>
+                                    <a href="https://lyonbike.jordanzanetti.fr/" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">CMS d'entreprise</p>
                                 </div>
                             </div>
                         </div>

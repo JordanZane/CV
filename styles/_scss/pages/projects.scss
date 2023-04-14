@@ -32,6 +32,7 @@
                     margin-top: 50px;
                     color: $color-white;
                     text-transform: uppercase;
+                    padding-bottom: 0;
                 }
                 a{
                     img{
@@ -41,6 +42,10 @@
                         position: relative;
                     }
                 }
+                p{
+                    color: $color-white;
+                    margin: 0;
+                }
                 p.dev-tools{
                     position: absolute;
                     left: 0;
@@ -49,6 +54,7 @@
                     padding: 10px;
                     font-weight: bold;
                     background: $color-white;
+                    color: $color-grey;
                 }
             }
         }
