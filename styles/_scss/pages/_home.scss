@@ -1,3 +1,25 @@
+.reseau-soc-aside{
+    position: fixed;
+    z-index: 30;
+    left: 10px;
+    display: flex;
+    top: 50%;
+    flex-direction: column;
+    a{
+        color: $color-blue;
+        margin-bottom: 20px;
+        &:hover i {
+            transform: scale(1.3);
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+        i{
+            font-size: 30px;
+            @include transition(0.3s);
+        }
+    }
+}
 .about-section{
     background-image: url(/images/home/abstrait-about-bg.svg);
     background-repeat: no-repeat;
@@ -259,7 +281,7 @@
                 font-size: 72px;
                 color: $color-blue;
                 margin-bottom: 15px;
-                transition: all 0.3s ease-in-out;
+                @include transition(0.3s);
             }
             p{
                 font-weight: bold;

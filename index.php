@@ -16,6 +16,17 @@
             <i class="fa-solid fa-arrow-up"></i>
         </a>
     </div>
+    <div class="reseau-soc-aside">
+        <a href="tel:0666179121">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+        <a href="mailto:jzanetti1@outlook.fr">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jordan-zanetti-044ab2174/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>           
+    </div>
     <main>
         <section class="about-section">
             <div class="container">
