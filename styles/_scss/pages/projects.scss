@@ -1,0 +1,56 @@
+.projects-page{
+    .projects-container{
+        .projects-row{
+            margin-bottom: 30px;
+        }
+        .card-container {
+            width: 100%;
+            height: 216px;
+            perspective: 1000px;
+            overflow: hidden;
+            &:hover{
+                .infos-card{
+                    top: 0;
+                }
+            }
+            .front-card{
+                img{
+                    max-width: 100%;
+                }
+            }
+            .infos-card{
+                position: absolute;
+                top: 216px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                transform: unset;
+                transition: all 0.5s ease-in;
+                background-color: #0000008a;
+                text-align: center;
+                h4{
+                    margin-top: 50px;
+                    color: $color-white;
+                    text-transform: uppercase;
+                }
+                a{
+                    img{
+                        background-color: $color-blue;
+                        padding: 4px;
+                        border-radius: 50%;
+                        position: relative;
+                    }
+                }
+                p.dev-tools{
+                    position: absolute;
+                    left: 0;
+                    margin: 0;
+                    bottom: 0;
+                    padding: 10px;
+                    font-weight: bold;
+                    background: $color-white;
+                }
+            }
+        }
+    }
+}

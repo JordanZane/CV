@@ -12,9 +12,103 @@
                 <i class="fa-solid fa-arrow-up"></i>
             </a>
         </div>
-        <main>
+        <main class="projects-page">
             <section class="projects-container">
-
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Mes <span class="underline color-blue">projets</span></h2>
+                        </div>
+                    </div>
+                    <div class="row projects-row">
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/efitax.jpg" alt="Efitax-Expertise">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>Efitax Expertise</h4>
+                                    <a href="https://www.efitax.lu/fr" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">CMS d'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/laloja.jpg" alt="La Loja">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>La Loja</h4>
+                                    <a href="https://www.laloja.be/" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">Prestashop</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/fermedespetelles.jpg" alt="Ferme des Pételles">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>Ferme des Pételles</h4>
+                                    <a href="https://www.fermedespetelles.be/" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">WordPress</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row projects-row">
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/efitax.jpg" alt="Efitax-Expertise">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>Efitax Expertise</h4>
+                                    <a href="https://www.efitax.lu/fr" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">CMS d'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/laloja.jpg" alt="La Loja">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>La Loja</h4>
+                                    <a href="https://www.laloja.be/" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">Prestashop</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-container">
+                                <div class="front-card">
+                                    <img src="images/home/projects/fermedespetelles.jpg" alt="Ferme des Pételles">
+                                </div>
+                                <div class="infos-card">
+                                    <h4>Ferme des Pételles</h4>
+                                    <a href="https://www.fermedespetelles.be/" target="_blank">
+                                        <img src="/images/home/projects/eyes.svg" alt="Voir le site">
+                                    </a>
+                                    <p class="dev-tools">WordPress</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
         <footer>
