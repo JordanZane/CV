@@ -34,10 +34,14 @@
                     <?php else: ?> 
 
                     Mes <span class="color-blue">projets</span>
-                    
+
                     <?php endif ?>
                 </h1>
+                <?php if ($monUrl == "http://cv-online/index.php") : ?>
                 <a class="btn" href="#projects-section">Mes projets <i class="fa-solid fa-arrow-down"></i></a>
+                <?php else: ?>
+                <a class="btn" href="http://cv-online/#contact-section">Me contacter <i class="fa-solid fa-arrow-down"></i></a> 
+                <?php endif ?>
             </div>
         </div>
         <div class="row all-icons-container">
