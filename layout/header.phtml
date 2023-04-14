@@ -5,20 +5,31 @@
                 <div class="col-md-12 menu">
                     <nav>
                         <ul>
+                            <?php $monUrl = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>
+                            <?php if($monUrl == "http://cv-online/index.php"): ?>
                             <li><a class="active" href="index.php">Accueil</a></li>
                             <li><a href="projects.php">Projets</a></li>
+                            <?php else: ?>
+                            <li><a class="" href="index.php">Accueil</a></li>
+                            <li><a class="active" href="projects.php">Projets</a></li>
+                            <?php endif ?>
                         </ul>
                     </nav>
                 </div>
         </div>
         </div>
         <div class="infos-container">
-        <div class="row">
+            <div class="container">
+            <div class="row">
             <div class="col-lg-12 header-infos">
                 <h1>
                     <span class="small-title">Zanetti <span class="color-blue">Jordan </span></span>
                     </br>
+                    <?php if ($monUrl == "http://cv-online/index.php"): ?>
                     Développeur intégrateur <span class="color-blue">web</span>
+                    <?php else: ?> 
+                    Mes <span class="color-blue">projets</span>
+                    <?php endif ?>
                 </h1>
                 <a class="btn" href="#projects-section">Mes projets <i class="fa-solid fa-arrow-down"></i></a>
             </div>
@@ -46,6 +57,8 @@
                
             </div>
         </div>
+            </div>
+        
         </div>
         
     

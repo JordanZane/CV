@@ -4,7 +4,9 @@
         <?php include 'layout/head.phtml'; ?>
     </head>
     <body>
-        
+        <header>
+            <?php include 'layout/header.phtml'; ?>
+        </header>
         <div class="back-to-top">
             <a href="#top-page">
                 <i class="fa-solid fa-arrow-up"></i>
