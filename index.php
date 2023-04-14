@@ -16,7 +16,7 @@
             <i class="fa-solid fa-arrow-up"></i>
         </a>
     </div>
-    <div class="reseau-soc-aside">
+    <div class="contact-aside">
         <a href="tel:0666179121">
             <i class="fa-solid fa-phone"></i>
         </a>

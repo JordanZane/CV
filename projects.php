@@ -7,6 +7,17 @@
         <header>
             <?php include 'layout/header.phtml'; ?>
         </header>
+        <div class="contact-aside">
+        <a href="tel:0666179121">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+        <a href="mailto:jzanetti1@outlook.fr">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jordan-zanetti-044ab2174/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>           
+    </div>
         <div class="back-to-top">
             <a href="#top-page">
                 <i class="fa-solid fa-arrow-up"></i>
