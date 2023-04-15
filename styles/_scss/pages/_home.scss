@@ -291,7 +291,16 @@
 .contact-section{
     background-image: url(/images/home/abstrait-contact-bg.svg);
     background-repeat: no-repeat;
-    background-position: 108% 0;
+    background-position: 114% 0;
+    @include respond-to("mlarge"){
+        background-position: 130% 0;
+    }
+    @include respond-to("break"){
+        background-position: 140% 0;
+    }
+    @include respond-to("ipad"){
+        background-image: none;
+    }
     .col-md-4{
         a{
             display: flex;
