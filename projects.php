@@ -24,7 +24,7 @@
             </a>
         </div>
         <main class="projects-page">
-            <section class="projects-container">
+            <section class="projects-container" id="projects-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
