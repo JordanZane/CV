@@ -4,6 +4,7 @@
     left: 10px;
     display: flex;
     top: 50%;
+    transform: translate(0, -50%);
     flex-direction: column;
     a{
         color: $color-blue;
@@ -78,6 +79,7 @@
         margin-bottom: 100px;
         padding: 10px 0;
         position: relative;
+        box-shadow: 2px 2px 3px $color-blue;
         .skills-content{
             display: flex;
             align-items: center;
