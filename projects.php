@@ -26,12 +26,12 @@
         <main class="projects-page">
             <section class="projects-container" id="projects-section">
                 <div class="container">
-                    <div class="row">
+                    <div class="row reveal">
                         <div class="col-md-12">
                             <h2>Mes <span class="underline color-blue">projets</span></h2>
                         </div>
                     </div>
-                    <div class="row projects-row">
+                    <div class="row projects-row reveal">
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front-card">
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row projects-row">
+                    <div class="row projects-row reveal">
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front-card">
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row projects-row">
+                    <div class="row projects-row reveal">
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front-card">
@@ -163,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row projects-row">
+                    <div class="row projects-row reveal">
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front-card">
@@ -175,7 +175,7 @@
                                     <a href="http://agencetourisme.jordanzanetti.fr/" target="_blank">
                                         <img src="/images/home/projects/eyes.svg" alt="Voir le site">
                                     </a>
-                                    <p class="dev-tools">CMS d'entreprise</p>
+                                    <p class="dev-tools">OpenClassrooms</p>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +190,7 @@
                                     <a href="http://webagency.jordanzanetti.fr/" target="_blank">
                                         <img src="/images/home/projects/eyes.svg" alt="Voir le site">
                                     </a>
-                                    <p class="dev-tools">CMS d'entreprise</p>
+                                    <p class="dev-tools">OpenClassrooms</p>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@
                                     <a href="https://lyonbike.jordanzanetti.fr/" target="_blank">
                                         <img src="/images/home/projects/eyes.svg" alt="Voir le site">
                                     </a>
-                                    <p class="dev-tools">CMS d'entreprise</p>
+                                    <p class="dev-tools">OpenClassrooms</p>
                                 </div>
                             </div>
                         </div>

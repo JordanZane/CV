@@ -29,7 +29,7 @@
     </div>
     <main>
         <section class="about-section">
-            <div class="container">
+            <div class="container reveal">
                     <div class="row">
                         <div class="col-lg-12">
                             <h2>à propos de <span class="color-blue underline">moi</span></h2>
@@ -60,13 +60,13 @@
         </section>
         <section class="skills-section bg-grey">
             <div class="container">
-                <div class="row">
+                <div class="row reveal">
                     <div class="col-lg-12">
                         <h2>Mes <span class="color-blue underline">compétences</span></h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 front-end-skills">
+                    <div class="col-lg-8 front-end-skills reveal">
                         <h3>Front-end <i class="fa-solid fa-code"></i></h3>
                         <div class="skills-container col-lg-12">
                             <div class="first-col col-lg-6">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="offset-lg-4 col-lg-8 tools-skills">
+                    <div class="offset-lg-4 col-lg-8 tools-skills reveal">
                         <h3>Outils <i class="fa-solid fa-screwdriver-wrench"></i></h3>
                         <div class="skills-container col-lg-12">
                             <div class="first-col col-lg-6">
@@ -210,7 +210,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 other-skills">
+                    <div class="col-lg-8 other-skills reveal">
                         <h3>Autres <i class="fa-solid fa-gear"></i></h3>
                         <div class="skills-container col-lg-12">
                             <div class="first-col col-lg-6">
@@ -235,7 +235,7 @@
             </div>
         </section>
         <section class="experiences-section">
-            <div class="container">
+            <div class="container reveal">
                 <div class="row">
                     <div class="col-lg-12">
                         <h2>Mon <span class="color-blue underline">parcours</span></h2>
@@ -318,12 +318,12 @@
         </section>
         <section class="projects-section bg-grey" id="projects-section">
             <div class="container">
-                <div class="row">
+                <div class="row reveal">
                     <div class="col-md-12">
                         <h2>Mes <span class="color-blue underline">projets</span></h2>
                     </div>
                 </div>
-                <div class="row projects-row">
+                <div class="row projects-row reveal">
                     <div class="col-md-6">
                         <div class="card-container">
                             <div class="card-inner">
@@ -363,7 +363,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row projects-row">
+                <div class="row projects-row reveal">
                     <div class="col-md-6">
                         <div class="card-container">
                             <div class="card-inner">
@@ -403,7 +403,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row projects-row">
+                <div class="row projects-row reveal">
                 <div class="col-md-6">
                         <div class="card-container">
                                 <div class="card-inner">
@@ -453,7 +453,7 @@
             </div>
         </section>
         <section class="contact-section" id="contact-section">
-            <div class="container">
+            <div class="container reveal">
                 <div class="row">
                     <div class="col-md-12">
                         <h2>Me <span class="color-blue underline">Contacter</span></h2>
