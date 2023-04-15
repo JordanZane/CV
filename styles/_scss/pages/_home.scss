@@ -26,6 +26,9 @@
     background-repeat: no-repeat;
     background-position: right;
     padding-bottom: 75px;
+    @include respond-to("mlarge"){
+        background-image: unset;
+    }
     .col-lg-7{
         position: relative;
         &::after{
@@ -106,6 +109,16 @@
                 height: 250px;
                 left: -350px;
                 top: -50px;
+                @include respond-to("mlarge"){
+                    background-size: 200px;
+                    width: 200px;
+                    height: 200px;
+                    left: -265px;
+                    top: -50px;
+                }
+                @include respond-to("break"){
+                    content: unset;
+                }
             }
         }
     }
@@ -122,6 +135,16 @@
                 height: 250px;
                 right: -350px;
                 top: -50px;
+                @include respond-to("mlarge"){
+                    background-size: 200px;
+                    width: 200px;
+                    height: 200px;
+                    right: -265px;
+                    top: -50px;
+                }
+                @include respond-to("break"){
+                    content: unset;
+                }
             }
         }
     }
@@ -141,7 +164,9 @@
         z-index: -1;
         width: 1300px;
         height: 700px;
-        
+        @include respond-to("mlarge"){
+            width: 100%;
+        }
     }
     .experiences-container{
         border: 1px solid $color-blue;
