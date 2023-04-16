@@ -12,6 +12,7 @@ header{
 
         .header-infos{
             margin : 200px 0;
+            animation: 1.5s linear forwards bounce;
             @include respond-to("medium"){
                 margin: 65px 0;
             }
@@ -72,13 +73,10 @@ header{
             }
         }
 
-        .infos-container {
-         
-        }
-
         .icons-container{
             display: flex;
             justify-content: center;
+            animation: 0.8s linear forwards fadeUp;
             @include respond-to("xs"){
                 margin-top: 60px;
             }

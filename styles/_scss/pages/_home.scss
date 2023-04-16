@@ -289,9 +289,8 @@
                     top: 0;
                     left: 50%;
                     transform: translate(-50%, 0);
-                    background-color: #0000008a;
+                    background-color: #000000ad;
                     display: flex;
-                    background-color: #0000008a;
                     align-items: center;
                     justify-content: center;
                     flex-direction: column;
@@ -299,6 +298,7 @@
                         color: $color-white;
                         text-transform: uppercase;
                         margin-bottom: 25px;
+                        font-size: 22px;
                         @include respond-to("medium"){
                             margin-bottom: 0;
                         }
