@@ -1,5 +1,8 @@
 header{
     height: 100vh;
+    @include respond-to("medium"){
+        max-height: 800px;
+    }
         .bg-header{
             position: relative;
             z-index: 20;
@@ -77,9 +80,10 @@ header{
             display: flex;
             justify-content: center;
             animation: 0.8s linear forwards fadeUp;
-            @include respond-to("xs"){
-                margin-top: 60px;
+            @include respond-to("medium"){
+                margin-top: 150px;
             }
+           
             .col-lg-3{
                 text-align: center;
                 i{
