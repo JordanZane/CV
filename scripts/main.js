@@ -37,3 +37,16 @@ function reveal() {
  
  loadPage();
 
+ /*Change active link nav*/
+ const homeLink = document.getElementById("home-link");
+ const projectsLink = document.getElementById("projects-link");
+
+homeLink.addEventListener('click', function(){
+  projectsLink.classList.remove("active");
+  homeLink.classList.add("active");
+});
+
+projectsLink.addEventListener('click', function(){
+  homeLink.classList.remove("active");
+  projectsLink.classList.add("active");
+});
