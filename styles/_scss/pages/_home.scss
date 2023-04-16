@@ -97,6 +97,7 @@
         padding: 10px 0;
         position: relative;
         box-shadow: 2px 2px 3px $color-blue;
+        border-radius: 2px;
         @include respond-to("small"){
             margin-bottom: 50px;
         }
