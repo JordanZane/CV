@@ -1,4 +1,23 @@
+#main, #header, #footer, #back-to-top-container, #aside{
+        display: none;
+}
 
+#loading-page-container{
+        position: relative;
+        height: 100vh;
+        .icons-container{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            i{
+                
+            }
+            i:first-child{
+                
+            }
+        }
+    }
 
 html{
         scroll-behavior: smooth;

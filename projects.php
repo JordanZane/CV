@@ -3,11 +3,18 @@
     <head>
         <?php include 'layout/head.phtml'; ?>
     </head>
+    <div id="loading-page-container">
+        <div class="icons-container" id="icons-container">
+            <i class="fa-solid fa-gear"></i>
+            <i class="fa-solid fa-gear"></i>
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </div>
     <body>
-        <header>
+        <header id="header">
             <?php include 'layout/header.phtml'; ?>
         </header>
-        <div class="contact-aside">
+        <div class="contact-aside" id="aside">
         <a href="tel:0666179121">
             <i class="fa-solid fa-phone"></i>
         </a>
@@ -18,12 +25,12 @@
             <i class="fa-brands fa-linkedin-in"></i>
         </a>           
     </div>
-        <div class="back-to-top">
+        <div class="back-to-top" id="back-to-top-container">
             <a href="#top-page">
                 <i class="fa-solid fa-arrow-up"></i>
             </a>
         </div>
-        <main class="projects-page">
+        <main id="main" class="projects-page">
             <section class="projects-container" id="projects-section">
                 <div class="container">
                     <div class="row reveal">
@@ -207,7 +214,7 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer id="footer">
             <?php include 'layout/footer.phtml'; ?>
         </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
