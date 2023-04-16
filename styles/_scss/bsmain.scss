@@ -1,8 +1,6 @@
 @charset 'utf-8';
 @import "abstracts/_mixins.scss";
 @import 'abstracts/_variables.scss';
-@import 'abstracts/_functions.scss';
-@import 'abstracts/_placeholders.scss';
 
 @import 'base/typography.scss';
 @import 'base/_animation.scss';
@@ -14,6 +12,5 @@
 
 @import 'pages/_home.scss';  
 @import 'pages/_globalstyle.scss';
-@import 'pages/_contact.scss';
 @import 'pages/projects.scss';
 
