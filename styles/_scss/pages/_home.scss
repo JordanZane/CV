@@ -6,6 +6,9 @@
     top: 50%;
     transform: translate(0, -50%);
     flex-direction: column;
+    @include respond-to("xs"){
+        display: none;
+    }
     a{
         color: $color-blue;
         margin-bottom: 20px;
@@ -40,6 +43,9 @@
             width: 2px;
             height: 100%;
             background-color: $color-blue;
+            @include respond-to("medium"){
+                content: none;
+            }
         }
         p span{
             font-weight: bold;
@@ -83,15 +89,32 @@
         padding: 10px 0;
         position: relative;
         box-shadow: 2px 2px 3px $color-blue;
+        @include respond-to("small"){
+            margin-bottom: 50px;
+        }
         .skills-content{
             display: flex;
             align-items: center;
             width: 100%;
             padding: 0 15px;
             justify-content: space-between;
+            h4{
+                @include respond-to("small"){
+                    font-size: 14px;
+                }
+                @include respond-to("small"){
+                    font-size: 12px;
+                }
+            }
             .grades{
                 i{
                     color: $color-blue;
+                    @include respond-to("small"){
+                        font-size: 0.7em;
+                    }
+                    @include respond-to("small"){
+                        font-size: 0.5em;
+                    }
                 }
             }
         }
@@ -216,10 +239,20 @@
 .projects-section{
     .projects-row{
         margin-bottom: 30px;
+        @include respond-to("small"){
+            margin-bottom: 0;
+        }
     }
     .card-container{
         height: 333px;
         perspective: 1000px;
+        @include respond-to("medium"){
+            height: 203px;
+        }
+        @include respond-to("small"){
+            height: 314.5px;
+            margin-bottom: 30px;
+        }
         .card-inner{
             position: relative;
             width: 100%;
@@ -237,6 +270,9 @@
             }
             .back-card{
                 transform: rotateY(180deg);
+                @include respond-to("medium"){
+                    transform: unset;
+                }
                 .card-content{
                     width: 100%;
                     position: absolute;
@@ -254,6 +290,9 @@
                         color: $color-white;
                         text-transform: uppercase;
                         margin-bottom: 25px;
+                        @include respond-to("medium"){
+                            margin-bottom: 0;
+                        }
                     }
                     a img{
                         background-color: $color-blue;
@@ -269,6 +308,9 @@
                     padding: 10px;
                     font-weight: bold;
                     background: $color-white;
+                    @include respond-to("medium"){
+                        padding: 6px;
+                    }
                 }
             }
             img{
@@ -302,6 +344,9 @@
         background-image: none;
     }
     .col-md-4{
+        @include respond-to("small"){
+            margin-bottom: 30px;
+        }
         a{
             display: flex;
             justify-content: center;
@@ -318,6 +363,9 @@
                 color: $color-blue;
                 margin-bottom: 15px;
                 @include transition(0.3s);
+                @include respond-to("small"){
+                    font-size: 52px;
+                }
             }
             p{
                 font-weight: bold;

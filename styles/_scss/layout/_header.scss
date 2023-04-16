@@ -12,6 +12,12 @@ header{
 
         .header-infos{
             margin : 200px 0;
+            @include respond-to("medium"){
+                margin: 65px 0;
+            }
+            @include respond-to("small"){
+                margin: 40px 0;
+            }
         }
 
         .menu{
@@ -73,15 +79,31 @@ header{
         .icons-container{
             display: flex;
             justify-content: center;
+            @include respond-to("xs"){
+                margin-top: 60px;
+            }
             .col-lg-3{
                 text-align: center;
                 i{
                     color: $color-blue;
                     font-size: 5em;
+                    @include respond-to("small"){
+                        font-size: 3.5em;
+                    }
+                    @include respond-to("xs"){
+                        font-size: 3em;
+                    }
                 }
                 h3{
                     font-size: 20px;
                     color: $color-white;
+                    line-height: 1.3em;
+                    @include respond-to("small"){
+                        font-size: 16px;
+                    }
+                    @include respond-to("small"){
+                        font-size: 14px;
+                    }
                 }
             }
         }

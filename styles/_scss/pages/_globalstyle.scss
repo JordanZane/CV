@@ -41,16 +41,29 @@ body {
                 padding: 40px 0;
                 color: $color-white;
                 @include respond-to('medium') {
-                        font-size: 30px;
-
+                        font-size: 45px;
+                        line-height: 1.3em;
                 }
                 @include respond-to('small') {
-                        font-size: 25px;
+                        font-size: 32px;
+                        line-height: 1.3em;
+                }
+                @include respond-to('xs') {
+                        font-size: 24px;
+                        line-height: 1.3em;
                 }
                 .small-title{
                         font-size: 42px;
-                        line-height: 46px;
                         text-transform: uppercase;
+                        @include respond-to("medium"){
+                                font-size: 30px;
+                        }
+                        @include respond-to("small"){
+                                font-size: 25px;
+                        }
+                        @include respond-to("small"){
+                                font-size: 24px;
+                        }
                 }
         }
 
@@ -58,7 +71,7 @@ body {
                 font-family: $font2;
                 font-size: 42px;
                 font-weight: 700;
-                line-height: 52px;
+                line-height: 1.3em;
                 padding: 25px;
                 text-align: center;
                 margin-bottom: 35px;
@@ -66,12 +79,11 @@ body {
                         text-transform: uppercase;
                 }
                 @include respond-to('medium') {
-                        font-size: 25px;
-
+                        font-size: 30px;
+                        line-height: 1.3em;
+                        margin-bottom: 20px;
                 }
-                @include respond-to('small') {
-                        font-size: 20px;
-                }
+                
                 span.underline{
                         position: relative;
                         &::after{
@@ -109,9 +121,6 @@ body {
                 font-weight: 700;
                 padding: 10px 0;
                 margin: 0;
-                @include respond-to('small') {
-                        font-size: 14px;
-                }
         }
 
         p {
