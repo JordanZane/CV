@@ -7,9 +7,11 @@
     <body>
     <div id="loading-page-container">
         <div class="icons-container" id="icons-container">
-            <i class="fa-solid fa-gear"></i>
-            <i class="fa-solid fa-gear"></i>
-            <i class="fa-solid fa-gear"></i>
+            <div class="icons-content">
+                <i class="fa-solid fa-gear"></i>
+                <i class="fa-solid fa-gear"></i>
+                <i class="fa-solid fa-gear"></i>
+            </div>
         </div>
     </div>
     <header id="header">

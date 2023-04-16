@@ -22,7 +22,7 @@ function reveal() {
  let load;
 
  function loadPage() {
-   load = setTimeout(showPage, 1500);
+   load = setTimeout(showPage, 800);
  }
  
  function showPage() {
@@ -37,4 +37,3 @@ function reveal() {
  
  loadPage();
 
- 
