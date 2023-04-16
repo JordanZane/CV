@@ -8,6 +8,8 @@
             height: 216px;
             perspective: 1000px;
             overflow: hidden;
+            margin-bottom: 30px;
+           
             &:hover{
                 .infos-card{
                     top: 0;
@@ -28,11 +30,17 @@
                 transition: all 0.5s ease-in;
                 background-color: #0000008a;
                 text-align: center;
+                @include respond-to("medium"){
+                    top: 0;
+                }
                 h4{
-                    margin-top: 50px;
+                    margin: 50px 0 25px 0;
                     color: $color-white;
                     text-transform: uppercase;
                     padding-bottom: 0;
+                    @include respond-to("medium"){
+                        margin-bottom: 20px;
+                    }
                 }
                 a{
                     img{

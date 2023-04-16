@@ -31,8 +31,8 @@
                             <h2>Mes <span class="underline color-blue">projets</span></h2>
                         </div>
                     </div>
-                    <div class="row projects-row reveal">
-                        <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/efitax.jpg" alt="Efitax-Expertise">
@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/laloja.jpg" alt="La Loja">
@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/fermedespetelles.jpg" alt="Ferme des Pételles">
@@ -74,9 +74,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row projects-row reveal">
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/ilpizzico.jpg" alt="Restautrant Ilpizzico">
@@ -90,7 +88,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/centre-therapie-manuelle.jpg" alt="Centre de thérapie manuelle">
@@ -104,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/centre-formaton-reflexologie.jpg" alt="Académie du Bien-Être">
@@ -118,9 +116,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row projects-row reveal">
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/o3-architecture.jpg" alt="O3-Architecture">
@@ -134,7 +130,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/jp-ruelle.jpg" alt="Jean-Pierre Ruelle">
@@ -148,7 +144,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/ardoisiere-alle.jpg" alt="Ardoisiere-alle">
@@ -162,9 +158,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row projects-row reveal">
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/fictiville.jpg" alt="Office de Toursime - Fictiville">
@@ -179,7 +173,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/web-agency.jpg" alt="Web Agency">
@@ -194,7 +188,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-lg-4 reveal">
                             <div class="card-container">
                                 <div class="front-card">
                                     <img src="images/home/projects/lyon-bike.jpg" alt="Lyon Bike">

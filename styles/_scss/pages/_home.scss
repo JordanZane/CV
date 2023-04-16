@@ -62,6 +62,14 @@
         margin-top: 35px;
         .btn{
             margin-right: 30px;
+            @include respond-to("xs"){
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+            &:last-child{
+                margin-right: 0;
+                margin-bottom: 0;
+            }
         }
     }
 }
@@ -98,13 +106,16 @@
             width: 100%;
             padding: 0 15px;
             justify-content: space-between;
+            @include respond-to("xs"){
+                padding: 0;
+                flex-direction: column;
+                margin-bottom: 15px;
+            }
             h4{
                 @include respond-to("small"){
                     font-size: 14px;
                 }
-                @include respond-to("small"){
-                    font-size: 12px;
-                }
+                
             }
             .grades{
                 i{
@@ -112,9 +123,7 @@
                     @include respond-to("small"){
                         font-size: 0.7em;
                     }
-                    @include respond-to("small"){
-                        font-size: 0.5em;
-                    }
+                    
                 }
             }
         }
