@@ -12,6 +12,7 @@
                 <i class="fa-solid fa-gear"></i>
                 <i class="fa-solid fa-gear"></i>
             </div>
+            <p class="color-blue">Loading...</p>
         </div>
     </div>
     <header class="hide">
