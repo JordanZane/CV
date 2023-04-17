@@ -19,12 +19,12 @@ function reveal() {
 
 
  /*Loading page*/
- let load;
+ /*let load;
 
  function loadPage() {
    load = setTimeout(showPage, 800);
  }
- 
+ */
  function showPage() {
    document.getElementById("loading-page-container").style.display = "none";
    document.getElementById("icons-container").style.display = "none";
@@ -34,8 +34,12 @@ function reveal() {
    document.getElementById("back-to-top-container").style.display = "block";
    document.getElementById("aside").style.display = "flex";
  }
+
+ window.addEventListener('load',function(){
+    showPage();
+ })
  
- loadPage();
+ /*loadPage();*/
 
  /*Change active link nav*/
  const homeLink = document.getElementById("home-link");
