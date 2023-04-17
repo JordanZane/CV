@@ -336,6 +336,9 @@
     .card-container:hover{
         .card-inner{
             transform: rotateY(180deg);
+            @include respond-to(medium){
+                transform: unset;
+            }
         }
     }
     .btn-container{

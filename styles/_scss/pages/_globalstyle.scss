@@ -55,6 +55,9 @@
                         text-align: center;
                         font-size: 1.5em;
                         margin-top: 30px;
+                        @include respond-to(medium){
+                                font-size: 1.2em;
+                        }
                 }
         }
     }
@@ -244,9 +247,6 @@ body {
 .button_back {
         margin-top: 40px;
         text-align: center;
-        a {
-
-        }
 }
 
 .color-blue{
