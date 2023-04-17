@@ -14,17 +14,17 @@
             </div>
         </div>
     </div>
-    <header id="header">
+    <header class="hide">
             <?php include 'layout/header.phtml'; ?>
     </header>
 
 
-    <div class="back-to-top" id="back-to-top-container">
+    <div class="back-to-top hide">
         <a href="#top-page">
             <i class="fa-solid fa-arrow-up"></i>
         </a>
     </div>
-    <div class="contact-aside" id="aside">
+    <div class="contact-aside hide">
         <a href="tel:0666179121">
             <i class="fa-solid fa-phone"></i>
         </a>
@@ -35,7 +35,7 @@
             <i class="fa-brands fa-linkedin-in"></i>
         </a>           
     </div>
-    <main id="main">
+    <main class="hide">
         <section class="about-section">
             <div class="container reveal">
                     <div class="row">
@@ -492,7 +492,7 @@
         </section>
     </main>
 
-    <footer id="footer">
+    <footer class="hide">
         <?php include 'layout/footer.phtml'; ?>
     </footer>
     <script type="text/javascript" src="scripts/main.js"></script>

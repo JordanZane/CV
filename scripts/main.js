@@ -17,31 +17,21 @@ function reveal() {
 
   window.addEventListener("scroll", reveal);
 
-
  /*Loading page*/
- /*let load;
-
- function loadPage() {
-   load = setTimeout(showPage, 800);
- }
- */
  function showPage() {
-   document.getElementById("loading-page-container").style.display = "none";
-   document.getElementById("icons-container").style.display = "none";
-   document.getElementById("header").style.display = "block";
-   document.getElementById("main").style.display = "block";
-   document.getElementById("footer").style.display = "block";
-   document.getElementById("back-to-top-container").style.display = "block";
-   document.getElementById("aside").style.display = "flex";
+    let hideElts = document.getElementsByClassName("hide");
+    document.getElementById("loading-page-container").style.display = "none";
+    document.getElementById("icons-container").style.display = "none";
+    for (i=0; i < hideElts.length; i++){
+      hideElts[i].classList.remove("hide");
+    }
  }
 
  window.addEventListener('load',function(){
     showPage();
  })
  
- /*loadPage();*/
-
- /*Change active link nav*/
+ /*Change active link nav on click*/
  const homeLink = document.getElementById("home-link");
  const projectsLink = document.getElementById("projects-link");
 
