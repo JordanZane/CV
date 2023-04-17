@@ -454,7 +454,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="btn-container">
-                            <a class="btn" href="layout/projects.phtml">Tous mes projets <i class="fa-solid fa-arrow-down"></i></a>
+                            <a class="btn" href="projects.phtml">Tous mes projets <i class="fa-solid fa-arrow-down"></i></a>
                         </div>
                     </div>
                 </div>

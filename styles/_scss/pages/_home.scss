@@ -7,7 +7,7 @@
     transform: translate(0, -50%);
     flex-direction: column;
     @include respond-to("xs"){
-        display: none;
+        display: none!important;
     }
     a{
         color: $color-blue;
