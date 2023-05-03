@@ -1,32 +1,42 @@
 [
     {
         "name" : "La Loja",
-        "categorie" : "Prestashop",
+        "category" : "Prestashop",
         "image" : "./images/home/projects/laloja.jpg",
+        "imageAlt" : "La Loja - Home Store et Epicerie Fine",
+        "link" : "https://laloja.be/",
         "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
     },
     {
         "name" : "La Loja",
-        "categorie" : "Prestashop",
+        "category" : "Prestashop",
         "image" : "./images/home/projects/laloja.jpg",
+        "imageAlt" : "La Loja - Home Store et Epicerie Fine",
+        "link" : "https://laloja.be/",
         "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
     },
     {
         "name" : "La Loja",
-        "categorie" : "Prestashop",
+        "category" : "Prestashop",
         "image" : "./images/home/projects/laloja.jpg",
+        "imageAlt" : "La Loja - Home Store et Epicerie Fine",
+        "link" : "https://laloja.be/",
         "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
     },
     {
         "name" : "La Loja",
-        "categorie" : "Prestashop",
+        "category" : "Prestashop",
         "image" : "./images/home/projects/laloja.jpg",
+        "imageAlt" : "La Loja - Home Store et Epicerie Fine",
+        "link" : "https://laloja.be/",
         "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
     },
     {
         "name" : "La Loja",
-        "categorie" : "Prestashop",
+        "category" : "Prestashop",
         "image" : "./images/home/projects/laloja.jpg",
+        "imageAlt" : "La Loja - Home Store et Epicerie Fine",
+        "link" : "https://laloja.be/",
         "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
     }
 ]
