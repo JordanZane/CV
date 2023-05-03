@@ -1,10 +1,6 @@
-//const projects = await fetch ("projects.json").then(projects => projects.json());
-//const reponse = await fetch('projects.json');
-//const projects = await reponse.json();
 
-async function generateProjetcs() {
-    let projects = await fetch('projects.json');
-    for (let  i = 0; i < projects.lenght; i++){
+function generateProjects(projects) {
+    for (let  i = 0; i < projects.length; i++){
         let projectsContainer = document.querySelector("#projects-container");
 
         let projectContainer = document.createElement("div");
@@ -20,7 +16,7 @@ async function generateProjetcs() {
         frontCard.classList.add("front-card");
 
         let backCard = document.createElement("div");
-        backCard.classList.add("back");
+        backCard.classList.add("back-card");
 
         let cardContent = document.createElement("div");
         cardContent.classList.add("card-content");
@@ -43,10 +39,52 @@ async function generateProjetcs() {
         imageCard.src = projects[i].image;
         imageCard.alt = projects[i].imageAlt;
 
-        frontCard.appendChild(imageCard);
+        
+
         backCard.appendChild(imageCard);
+        backCard.appendChild(cardContent);
+
+        frontCard.appendChild(imageCard);
+
+        cardContent.appendChild(projectTitle);
+        cardContent.appendChild(projectLink);
+
+        cardInner.appendChild(frontCard);
+        cardInner.appendChild(backCard);
+
+        
+
+        cardContainer.appendChild(cardInner);
+
+        projectContainer.appendChild(cardContainer);
+        projectsContainer.appendChild(projectContainer);
     }
 }
+
+
+document.addEventListener("DOMContentLoaded", function(){
+    fetch('data/projects.json')
+  .then(response => response.json())
+  .then(projects => {
+    // Use the data to generate HTML elements or do whatever you want
+    generateProjects(projects);
+    console.log(projects);
+  })
+  .catch(error => {
+    console.error('Error fetching projects:', error);
+  });
+})
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
