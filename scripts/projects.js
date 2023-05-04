@@ -2,14 +2,15 @@
 
 function generateProjects(projects) {
   var current_page = window.location.pathname;
-  const isIndexPage = current_page === '/';
+  const isIndexPage = current_page === '/index.php';
   const numProjectsHome = 6;
   const numProjects = isIndexPage ? numProjectsHome : projects.length;
+  console.log(current_page);
     for (let  i = 0; i < numProjects ; i++){
         let projectsContainer = document.querySelector("#projects-container");
 
         let projectContainer = document.createElement("div");
-        if (current_page == '/') {
+        if (current_page == '/index.php') {
           projectContainer.classList.add("col-lg-6");
         }else{
           projectContainer.classList.add("col-lg-4");
