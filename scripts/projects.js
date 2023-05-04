@@ -1,6 +1,6 @@
 
 function generateProjects(projects) {
-    for (let  i = 0; i < projects.length; i++){
+    for (let  i = 0; i < 6 ; i++){
         let projectsContainer = document.querySelector("#projects-container");
 
         let projectContainer = document.createElement("div");
@@ -39,10 +39,15 @@ function generateProjects(projects) {
         imageCard.src = projects[i].image;
         imageCard.alt = projects[i].imageAlt;
 
+        let imageBackCard = document.createElement("img");
+        imageBackCard.src = projects[i].image;
+        imageBackCard.alt = projects[i].imageAlt;
+
         
 
-        backCard.appendChild(imageCard);
+        backCard.appendChild(imageBackCard);
         backCard.appendChild(cardContent);
+        
         frontCard.appendChild(imageCard);
         cardContent.appendChild(projectTitle);
         cardContent.appendChild(projectLink);

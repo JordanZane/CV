@@ -5,7 +5,7 @@
         "image" : "./images/home/projects/efitax.jpg",
         "imageAlt" : "Efitax - Description",
         "link" : "https://www.efitax.lu/fr",
-        "description" : "A remplir"
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTMl-Sass-JavaScript-Bootstrap"
     },
     {
         "name" : "La Loja",
@@ -13,38 +13,38 @@
         "image" : "./images/home/projects/laloja.jpg",
         "imageAlt" : "La Loja - Home Store et Epicerie Fine",
         "link" : "https://laloja.be/",
-        "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
+        "description" : "Site e-commerce - Réalisé sur Prestashop"
     },
     {
-        "name" : "La Loja",
-        "category" : "Prestashop",
-        "image" : "./images/home/projects/laloja.jpg",
-        "imageAlt" : "La Loja - Home Store et Epicerie Fine",
-        "link" : "https://laloja.be/",
-        "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
+        "name" : "La Ferme des Pételles",
+        "category" : "WordPress",
+        "image" : "./images/home/projects/fermedespetelles.jpg",
+        "imageAlt" : "La Ferme des Pételles - Ferme familiale",
+        "link" : "https://www.fermedespetelles.be/",
+        "description" : "Site vitrine réalisé sur WordPress/Elementor"
     },
     {
-        "name" : "La Loja",
-        "category" : "Prestashop",
-        "image" : "./images/home/projects/laloja.jpg",
-        "imageAlt" : "La Loja - Home Store et Epicerie Fine",
-        "link" : "https://laloja.be/",
-        "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
-    },
-    {
-        "name" : "La Loja",
-        "category" : "Prestashop",
-        "image" : "./images/home/projects/laloja.jpg",
-        "imageAlt" : "La Loja - Home Store et Epicerie Fine",
-        "link" : "https://laloja.be/",
-        "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
-    },
-    {
-        "name" : "Duck List",
+        "name" : "Il Pizzico",
         "category" : "Autres",
-        "image" : "./images/home/projects/duck-list.jpg",
-        "imageAlt" : "Duck List - To Do List web application",
-        "link" : "https://duck-list.jordanzanetti.fr/",
-        "description" : "Application web de création de listes, tâches"
+        "image" : "./images/home/projects/ilpizzico.jpg",
+        "imageAlt" : "Il Pizzico",
+        "link" : "https://www.ilpizzico.lu/fr",
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTMl-Sass-JavaScript-Bootstrap"
+    },
+    {
+        "name" : "Centre de Thérapie Manuelle",
+        "category" : "Autres",
+        "image" : "./images/home/projects/centre-therapie-manuelle.jpg",
+        "imageAlt" : "Centre de Thérapie Manuelle",
+        "link" : "https://www.centredetherapiemanuelle.lu/fr",
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTMl-Sass-JavaScript-Bootstrap"
+    },
+    {
+        "name" : "Académie du Bien Être",
+        "category" : "Autres",
+        "image" : "./images/home/projects/centre-formaton-reflexologie.jpg",
+        "imageAlt" : "Académie du Bien Être - Centre de réfléxologie",
+        "link" : "https://www.academiedubienetre.be/fr/accueil",
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTMl-Sass-JavaScript-Bootstrap"
     }
 ]
