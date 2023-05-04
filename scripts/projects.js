@@ -1,9 +1,11 @@
-var current_page = window.location.pathname;
-console.log(current_page);
 
 
 function generateProjects(projects) {
-    for (let  i = 0; i < 6 ; i++){
+  var current_page = window.location.pathname;
+  const isIndexPage = current_page === '/';
+  const numProjectsHome = 6;
+  const numProjects = isIndexPage ? numProjectsHome : projects.length;
+    for (let  i = 0; i < numProjects ; i++){
         let projectsContainer = document.querySelector("#projects-container");
 
         let projectContainer = document.createElement("div");

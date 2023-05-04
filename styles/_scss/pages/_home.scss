@@ -252,7 +252,7 @@
     }
 }
 
-.projects-section{
+.projects-section, .projects-container{
     .projects-row{
         margin-bottom: 30px;
         @include respond-to("small"){

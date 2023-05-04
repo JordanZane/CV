@@ -46,5 +46,21 @@
         "imageAlt" : "Académie du Bien Être - Centre de réfléxologie",
         "link" : "https://www.academiedubienetre.be/fr/accueil",
         "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
+    },
+    {
+        "name" : "Académie du Bien Être",
+        "category" : "Autres",
+        "image" : "./images/home/projects/centre-formaton-reflexologie.jpg",
+        "imageAlt" : "Académie du Bien Être - Centre de réfléxologie",
+        "link" : "https://www.academiedubienetre.be/fr/accueil",
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
+    },
+    {
+        "name" : "Académie du Bien Être",
+        "category" : "Autres",
+        "image" : "./images/home/projects/centre-formaton-reflexologie.jpg",
+        "imageAlt" : "Académie du Bien Être - Centre de réfléxologie",
+        "link" : "https://www.academiedubienetre.be/fr/accueil",
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
     }
 ]

@@ -15,6 +15,32 @@
                     top: 0;
                 }
             }
+            .card-content{
+                h4{
+                    color: $color-white;
+                    text-transform: uppercase;
+                    padding-bottom: 0;
+                    font-size: 16px!important;
+                    margin: 15px 0!important;
+                    @include respond-to("medium"){
+                        margin-bottom: 20px;
+                    }
+                }
+                a{
+                    
+                    img{
+                        background-color: $color-blue;
+                        padding: 2px!important;
+                        border-radius: 50%;
+                        position: relative;
+                        width: 34px;
+                    }
+                }
+                p.description-container{
+                    font-size: 13px;
+                    margin-top: 15px;
+                }
+            }
             .front-card{
                 img{
                     max-width: 100%;
@@ -33,24 +59,8 @@
                 @include respond-to("medium"){
                     top: 0;
                 }
-                h4{
-                    margin: 50px 0 25px 0;
-                    color: $color-white;
-                    text-transform: uppercase;
-                    padding-bottom: 0;
-                    font-size: 18px;
-                    @include respond-to("medium"){
-                        margin-bottom: 20px;
-                    }
-                }
-                a{
-                    img{
-                        background-color: $color-blue;
-                        padding: 4px;
-                        border-radius: 50%;
-                        position: relative;
-                    }
-                }
+                
+                
                 p{
                     color: $color-white;
                     margin: 0;
