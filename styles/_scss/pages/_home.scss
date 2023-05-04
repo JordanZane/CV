@@ -262,6 +262,7 @@
     .card-container{
         height: 333px;
         perspective: 1000px;
+        margin-bottom: 30px;
         @include respond-to("medium"){
             height: 203px;
         }
@@ -299,12 +300,11 @@
                     background-color: #000000ad;
                     display: flex;
                     align-items: center;
-                    justify-content: center;
                     flex-direction: column;
                     h4{
                         color: $color-white;
                         text-transform: uppercase;
-                        margin-bottom: 25px;
+                        margin: 25px 0;
                         font-size: 22px;
                         @include respond-to("medium"){
                             margin-bottom: 0;
@@ -314,6 +314,22 @@
                         background-color: $color-blue;
                         border-radius: 50%;
                         padding: 5px;
+                    }
+                    p.category-container{
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        text-align: center;
+                        font-weight: bold;
+                        background-color: $color-white;
+                        margin: 0;
+                        padding: 4px 8px;
+                    }
+                    p.description-container{
+                        color: $color-white;
+                        margin-top: 30px;
+                        padding: 0 15px;
+                        font-weight: bold;
                     }
                 }
                 p.dev-tools {

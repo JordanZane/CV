@@ -1,11 +1,11 @@
 [
     {
         "name" : "Efitax",
-        "category" : "Autre",
+        "category" : "Autres",
         "image" : "./images/home/projects/efitax.jpg",
         "imageAlt" : "Efitax - Description",
         "link" : "https://www.efitax.lu/fr",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTMl-Sass-JavaScript-Bootstrap"
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
     },
     {
         "name" : "La Loja",
@@ -29,7 +29,7 @@
         "image" : "./images/home/projects/ilpizzico.jpg",
         "imageAlt" : "Il Pizzico",
         "link" : "https://www.ilpizzico.lu/fr",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTMl-Sass-JavaScript-Bootstrap"
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
     },
     {
         "name" : "Centre de Thérapie Manuelle",
@@ -37,7 +37,7 @@
         "image" : "./images/home/projects/centre-therapie-manuelle.jpg",
         "imageAlt" : "Centre de Thérapie Manuelle",
         "link" : "https://www.centredetherapiemanuelle.lu/fr",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTMl-Sass-JavaScript-Bootstrap"
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
     },
     {
         "name" : "Académie du Bien Être",
@@ -45,6 +45,6 @@
         "image" : "./images/home/projects/centre-formaton-reflexologie.jpg",
         "imageAlt" : "Académie du Bien Être - Centre de réfléxologie",
         "link" : "https://www.academiedubienetre.be/fr/accueil",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTMl-Sass-JavaScript-Bootstrap"
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
     }
 ]

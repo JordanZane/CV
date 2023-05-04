@@ -1,10 +1,18 @@
+var current_page = window.location.pathname;
+console.log(current_page);
+
 
 function generateProjects(projects) {
     for (let  i = 0; i < 6 ; i++){
         let projectsContainer = document.querySelector("#projects-container");
 
         let projectContainer = document.createElement("div");
-        projectContainer.classList.add("col-lg-6");
+        if (current_page == '/') {
+          projectContainer.classList.add("col-lg-6");
+        }else{
+          projectContainer.classList.add("col-lg-4");
+        };
+        
 
         let cardContainer = document.createElement("div");
         cardContainer.classList.add("card-container");
@@ -33,6 +41,7 @@ function generateProjects(projects) {
         eyeIcon.alt = "Visiter le site";
 
         let projectCategory = document.createElement("p");
+        projectCategory.classList.add("category-container");
         projectCategory.innerText = projects[i].category;
 
         let imageCard = document.createElement("img");
@@ -43,7 +52,9 @@ function generateProjects(projects) {
         imageBackCard.src = projects[i].image;
         imageBackCard.alt = projects[i].imageAlt;
 
-        
+        let descriptionContainer = document.createElement("p");
+        descriptionContainer.classList.add("description-container");
+        descriptionContainer.innerText = projects[i].description;
 
         backCard.appendChild(imageBackCard);
         backCard.appendChild(cardContent);
@@ -51,6 +62,8 @@ function generateProjects(projects) {
         frontCard.appendChild(imageCard);
         cardContent.appendChild(projectTitle);
         cardContent.appendChild(projectLink);
+        cardContent.appendChild(descriptionContainer);
+        cardContent.appendChild(projectCategory);
         projectLink.appendChild(eyeIcon);
         cardInner.appendChild(frontCard);
         cardInner.appendChild(backCard);
