@@ -1,11 +1,11 @@
 [
     {
-        "name" : "La Loja",
-        "category" : "Prestashop",
-        "image" : "./images/home/projects/laloja.jpg",
-        "imageAlt" : "La Loja - Home Store et Epicerie Fine",
-        "link" : "https://laloja.be/",
-        "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
+        "name" : "Efitax",
+        "category" : "Autre",
+        "image" : "./images/home/projects/efitax.jpg",
+        "imageAlt" : "Efitax - Description",
+        "link" : "https://www.efitax.lu/fr",
+        "description" : "A remplir"
     },
     {
         "name" : "La Loja",
@@ -38,5 +38,13 @@
         "imageAlt" : "La Loja - Home Store et Epicerie Fine",
         "link" : "https://laloja.be/",
         "description" : "Site e-commerce Home Store et Epicerie fine - réalisé sur Prestashop"
+    },
+    {
+        "name" : "Duck List",
+        "category" : "Autres",
+        "image" : "./images/home/projects/duck-list.jpg",
+        "imageAlt" : "Duck List - To Do List web application",
+        "link" : "https://duck-list.jordanzanetti.fr/",
+        "description" : "Application web de création de listes, tâches"
     }
 ]
