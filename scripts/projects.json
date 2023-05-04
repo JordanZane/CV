@@ -5,7 +5,7 @@
         "image" : "./images/home/projects/efitax.jpg",
         "imageAlt" : "Efitax - Description",
         "link" : "https://www.efitax.lu/fr",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, Html-Sass-JavaScript-Bootstrap"
     },
     {
         "name" : "La Loja",
@@ -29,7 +29,7 @@
         "image" : "./images/home/projects/ilpizzico.jpg",
         "imageAlt" : "Il Pizzico",
         "link" : "https://www.ilpizzico.lu/fr",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, Html-Sass-JavaScript-Bootstrap"
     },
     {
         "name" : "Centre de Thérapie Manuelle",
@@ -37,7 +37,23 @@
         "image" : "./images/home/projects/centre-therapie-manuelle.jpg",
         "imageAlt" : "Centre de Thérapie Manuelle",
         "link" : "https://www.centredetherapiemanuelle.lu/fr",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, Html-Sass-JavaScript-Bootstrap"
+    },
+    {
+        "name" : "O3-Architecture",
+        "category" : "Autres",
+        "image" : "./images/home/projects/o3-architecture.jpg",
+        "imageAlt" : "O3-Architecture - spécialiste des matériaux durables Construction et rénovation",
+        "link" : "https://www.o3-architecture.com/fr",
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, Html-Sass-JavaScript-Bootstrap"
+    },
+    {
+        "name" : "Duck List",
+        "category" : "Autres",
+        "image" : "./images/home/projects/duck-list.jpg",
+        "imageAlt" : "Duck List - To Do List application",
+        "link" : "https://duck-list.jordanzanetti.fr",
+        "description" : "Application web de création de liste - Html-Sass-JavaScript-LocalStorage-Json"
     },
     {
         "name" : "Académie du Bien Être",
@@ -45,22 +61,22 @@
         "image" : "./images/home/projects/centre-formaton-reflexologie.jpg",
         "imageAlt" : "Académie du Bien Être - Centre de réfléxologie",
         "link" : "https://www.academiedubienetre.be/fr/accueil",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
+        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, Html-Sass-JavaScript-Bootstrap"
     },
     {
-        "name" : "Académie du Bien Être",
+        "name" : "Web Agency",
         "category" : "Autres",
-        "image" : "./images/home/projects/centre-formaton-reflexologie.jpg",
-        "imageAlt" : "Académie du Bien Être - Centre de réfléxologie",
-        "link" : "https://www.academiedubienetre.be/fr/accueil",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
+        "image" : "./images/home/projects/web-agency.jpg",
+        "imageAlt" : "Web-Agency",
+        "link" : "https://webagency.jordanzanetti.fr",
+        "description" : "Site vitrine fictif réalisé en formation OpenClassroom, Html-Css"
     },
     {
-        "name" : "Académie du Bien Être",
+        "name" : "Lyon Bike",
         "category" : "Autres",
-        "image" : "./images/home/projects/centre-formaton-reflexologie.jpg",
-        "imageAlt" : "Académie du Bien Être - Centre de réfléxologie",
-        "link" : "https://www.academiedubienetre.be/fr/accueil",
-        "description" : "Site vitrine réalisé à partir du CMS d'entreprise, HTML-Sass-JavaScript-Bootstrap"
-    }
+        "image" : "./images/home/projects/lyon-bike.jpg",
+        "imageAlt" : "Lyon-Bike - Location de vélo",
+        "link" : "https://lyonbike.jordanzanetti.fr",
+        "description" : "Site fictive de location de vélo réalisé en formation OpenClassroom, Html-Css-JavaScript-API-LocalStorage"
+    }    
 ]
