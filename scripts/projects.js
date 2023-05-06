@@ -92,14 +92,23 @@ function showProjectsCategory() {
   const btnNavPro = document.getElementById("nav-btn-pro");
   const btnNavPerso = document.getElementById("nav-btn-perso");
   const btnNavForma = document.getElementById("nav-btn-forma");
+  const btnNavAll = document.getElementById("nav-btn-all");
   const btnNavProjects = document.querySelectorAll("#nav-projects-container ul li a");
   const projectsContainer = document.querySelectorAll("#projects-container > .col-lg-4");
-  const projectsSectionContainer = document.querySelector("#projects-container");
+  
+  btnNavAll.addEventListener("click", function(e){
+    e.preventDefault();
+    for (let i = 0; i < btnNavProjects.length; i++) {
+      btnNavProjects[i].classList.remove("active");
+    } 
+    btnNavAll.classList.add("active");
+    for (let i = 0; i < projectsContainer.length; i++) {
+      projectsContainer[i].style.display = "block";
+    }
+  })
 
   btnNavPro.addEventListener("click", function(e) {
     e.preventDefault();
-    projectsSectionContainer.classList.remove("active");
-    projectsSectionContainer.classList.add("active");
     for (let i = 0; i < btnNavProjects.length; i++) {
       btnNavProjects[i].classList.remove("active");
     }
@@ -111,6 +120,7 @@ function showProjectsCategory() {
     const proProjectsName = document.querySelectorAll(".professionnel-category");
     for (let i = 0; i < proProjectsName.length; i++) {
       proProjectsName[i].style.display = "block";
+      
       
     }
     console.log(projectsContainer, proProjectsName);
@@ -124,6 +134,7 @@ function showProjectsCategory() {
     btnNavPerso.classList.add("active");
     for (let i = 0; i < projectsContainer.length; i++) {
       projectsContainer[i].style.display = "none";
+      
       
     }
     const persoProjectsName = document.querySelectorAll(".personnel-category");
@@ -147,7 +158,6 @@ function showProjectsCategory() {
     const formaProjectsName = document.querySelectorAll(".formation-category");
     for (let i = 0; i < formaProjectsName.length; i++) {
       formaProjectsName[i].style.display = "block";
-      
     }
     console.log(projectsContainer, formaProjectsName);
   });
