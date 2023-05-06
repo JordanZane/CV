@@ -59,6 +59,18 @@ function generateProjects(projects) {
         descriptionContainer.classList.add("description-container");
         descriptionContainer.innerText = projects[i].description;
 
+        if(projects[i].category == "Professionnel"){
+          projectContainer.classList.add("professionnel-category")
+        };
+
+        if(projects[i].category == "Personnel"){
+          projectContainer.classList.add("personnel-category")
+        };
+
+        if(projects[i].category == "Formation"){
+          projectContainer.classList.add("formation-category")
+        };
+
         backCard.appendChild(imageBackCard);
         backCard.appendChild(cardContent);
         
@@ -76,18 +88,86 @@ function generateProjects(projects) {
     }
 }
 
+function showProjectsCategory() {
+  const btnNavPro = document.getElementById("nav-btn-pro");
+  const btnNavPerso = document.getElementById("nav-btn-perso");
+  const btnNavForma = document.getElementById("nav-btn-forma");
+  const btnNavProjects = document.querySelectorAll("#nav-projects-container ul li a");
+  const projectsContainer = document.querySelectorAll("#projects-container > .col-lg-4");
+  const projectsSectionContainer = document.querySelector("#projects-container");
+
+  btnNavPro.addEventListener("click", function(e) {
+    e.preventDefault();
+    projectsSectionContainer.classList.remove("active");
+    projectsSectionContainer.classList.add("active");
+    for (let i = 0; i < btnNavProjects.length; i++) {
+      btnNavProjects[i].classList.remove("active");
+    }
+    btnNavPro.classList.add("active");
+    for (let i = 0; i < projectsContainer.length; i++) {
+      projectsContainer[i].style.display = "none";
+      
+    }
+    const proProjectsName = document.querySelectorAll(".professionnel-category");
+    for (let i = 0; i < proProjectsName.length; i++) {
+      proProjectsName[i].style.display = "block";
+      
+    }
+    console.log(projectsContainer, proProjectsName);
+  });
+
+  btnNavPerso.addEventListener("click", function(e) {
+    e.preventDefault();
+    for (let i = 0; i < btnNavProjects.length; i++) {
+      btnNavProjects[i].classList.remove("active");
+    }
+    btnNavPerso.classList.add("active");
+    for (let i = 0; i < projectsContainer.length; i++) {
+      projectsContainer[i].style.display = "none";
+      
+    }
+    const persoProjectsName = document.querySelectorAll(".personnel-category");
+    for (let i = 0; i < persoProjectsName.length; i++) {
+      persoProjectsName[i].style.display = "block";
+      
+    }
+    console.log(projectsContainer, persoProjectsName);
+  });
+
+  btnNavForma.addEventListener("click", function(e) {
+    e.preventDefault();
+    for (let i = 0; i < btnNavProjects.length; i++) {
+      btnNavProjects[i].classList.remove("active");
+    }
+    btnNavForma.classList.add("active");
+    for (let i = 0; i < projectsContainer.length; i++) {
+      projectsContainer[i].style.display = "none";
+      
+    }
+    const formaProjectsName = document.querySelectorAll(".formation-category");
+    for (let i = 0; i < formaProjectsName.length; i++) {
+      formaProjectsName[i].style.display = "block";
+      
+    }
+    console.log(projectsContainer, formaProjectsName);
+  });
+}
 
 document.addEventListener("DOMContentLoaded", function(){
     fetch('data/projects.json')
   .then(response => response.json())
   .then(projects => {
-    // Use the data to generate HTML elements or do whatever you want
+    // Use the data to generate HTML elements
     generateProjects(projects);
+    showProjectsCategory();
   })
   .catch(error => {
     console.error('Error fetching projects:', error);
   });
 })
+
+
+
 
 
 

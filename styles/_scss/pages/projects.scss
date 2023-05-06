@@ -1,5 +1,41 @@
 .projects-page{
+    #projects-container{
+        opacity: 0;
+        @include transition(0.3s);
+        &.active{
+            opacity: 1;
+        }
+    }
     .projects-container{
+       
+        #nav-projects-container{
+            margin-bottom: 50px;
+            ul{
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+                a{
+                    font-size: 18px;
+                    padding: 12px 15px;
+                    background-color: $color-blue;
+                    color: $color-white;
+                    text-decoration: none;
+                    @include transition(0.3s);
+                    &:hover{
+                        background-color: $color-white;
+                        color: $color-blue;
+                        font-weight: bold;
+                        text-decoration: underline;
+                    }
+                    &.active{
+                        background-color: $color-white;
+                        color: $color-blue;
+                        font-weight: bold;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
         .projects-row{
             margin-bottom: 30px;
         }
@@ -27,7 +63,6 @@
                     }
                 }
                 a{
-                    
                     img{
                         background-color: $color-blue;
                         padding: 2px!important;
