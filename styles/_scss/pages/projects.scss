@@ -9,10 +9,18 @@
         
         #nav-projects-container{
             margin-bottom: 50px;
+            @include respond-to("small"){
+                margin-bottom: 30px;
+            }
             .navbar-toggle{
                 display: none;
                 @include respond-to("small"){
                     display: block;
+                    color: $color-blue;
+                    border: unset;
+                    background: unset;
+                    font-size: 28px;
+                    margin: auto;
                 }
             }
             #nav-dk{
