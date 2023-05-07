@@ -78,5 +78,13 @@
         "imageAlt" : "Lyon-Bike - Location de vélo",
         "link" : "https://lyonbike.jordanzanetti.fr",
         "description" : "Site fictive de location de vélo réalisé en formation OpenClassroom, Html-Css-JavaScript-API-LocalStorage"
-    }    
+    },
+    {
+        "name" : "Citation Philo",
+        "category" : "Personnel",
+        "image" : "./images/home/projects/citation-philo.jpg",
+        "imageAlt" : "Citations-Philo - Phrases philosophiques",
+        "link" : "https://citations-philo.jordanzanetti.fr",
+        "description" : "Site de génération aléatoire de citations philosophiques, JavaScript-Json"
+    }     
 ]
