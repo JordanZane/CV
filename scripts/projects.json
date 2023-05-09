@@ -102,5 +102,13 @@
         "imageAlt" : "Office de Tourisme - Fictiville",
         "link" : "https://agencetourisme.jordanzanetti.fr",
         "description" : "Site fictif réalisé en formation OpenClassroom, WordPress-Gutenberg"
-    }       
+    },
+    {
+        "name" : "Instant Weather",
+        "category" : "Personnel",
+        "image" : "./images/home/projects/instant-weather.jpg",
+        "imageAlt" : "Instant Weather",
+        "link" : "https://instant-weather.jordanzanetti.fr",
+        "description" : "Site d'affichage de la météo actuelle selon la ville"
+    }        
 ]
