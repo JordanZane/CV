@@ -13,7 +13,7 @@
         "image" : "./images/home/projects/laloja.jpg",
         "imageAlt" : "La Loja - Home Store et Epicerie Fine",
         "link" : "https://laloja.be/",
-        "description" : "Site e-commerce - Réalisé sur Prestashop"
+        "description" : "Site e-commerce, Réalisé sur Prestashop"
     },
     {
         "name" : "La Ferme des Pételles",
@@ -53,7 +53,7 @@
         "image" : "./images/home/projects/duck-list.jpg",
         "imageAlt" : "Duck List - To Do List application",
         "link" : "https://duck-list.jordanzanetti.fr",
-        "description" : "Application web de création de liste - Html-Sass-JavaScript-LocalStorage-Json"
+        "description" : "Application web de création de liste, Html-Sass-JavaScript-LocalStorage-Json"
     },
     {
         "name" : "Académie du Bien Être",
@@ -86,5 +86,21 @@
         "imageAlt" : "Citations-Philo - Phrases philosophiques",
         "link" : "https://citations-philo.jordanzanetti.fr",
         "description" : "Site de génération aléatoire de citations philosophiques, JavaScript-Json"
-    }     
+    },
+    {
+        "name" : "Janken Game",
+        "category" : "Personnel",
+        "image" : "./images/home/projects/janken.jpg",
+        "imageAlt" : "Janken Game",
+        "link" : "https://Janken-game.jordanzanetti.fr",
+        "description" : "Site web de jeu : Pierre Feuille Ciseaux, JavaScript-LocalStorage"
+    },
+    {
+        "name" : "Office de Tourisme - Fictiville",
+        "category" : "Formation",
+        "image" : "./images/home/projects/agence-tourisme.jpg",
+        "imageAlt" : "Office de Tourisme - Fictiville",
+        "link" : "https://agencetourisme.jordanzanetti.fr",
+        "description" : "Site fictif réalisé en formation OpenClassroom, WordPress-Gutenberg"
+    }       
 ]
