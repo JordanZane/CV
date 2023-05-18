@@ -109,6 +109,14 @@
         "image" : "./images/home/projects/instant-weather.jpg",
         "imageAlt" : "Instant Weather",
         "link" : "https://instant-weather.jordanzanetti.fr",
-        "description" : "Site d'affichage de la météo actuelle selon la ville"
-    }        
+        "description" : "Site d'affichage de la météo actuelle selon la ville, JavaScript-GoogleAPI-Geocoding API"
+    },   
+    {
+        "name" : "Bob's Burger World",
+        "category" : "Personnel",
+        "image" : "./images/home/projects/bobsburgerworld.jpg",
+        "imageAlt" : "Bob's Burger World",
+        "link" : "https://bobsburgerworld.jordanzanetti.fr",
+        "description" : "Site d'affichage des informations d'une série télévisée Américaine, ReactJs-Sass-API"
+    }     
 ]
